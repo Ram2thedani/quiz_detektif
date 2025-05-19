@@ -7,7 +7,8 @@
 <br>
 <p>Skema nya kayak gini nih kurang lebih:</p>
 
-![erd_detektif](https://github.com/user-attachments/assets/20ab5adc-acbd-418a-b5d6-34519070a9f6)
+![skema_detektif](https://github.com/user-attachments/assets/1d16dcae-0ddf-4449-99be-f908693db9aa)
+
 
 <hr>
 
