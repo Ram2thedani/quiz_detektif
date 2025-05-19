@@ -25,7 +25,7 @@ CREATE TABLE IF NOT EXISTS `interview` (
   `isi_interview` text
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
--- Dumping data for table db_detektif.interview: ~55 rows (approximately)
+-- Dumping data for table db_detektif.interview: ~0 rows (approximately)
 INSERT INTO `interview` (`nik`, `isi_interview`) VALUES
 	('327660070541', 'Saya melihat seorang pria tinggi memakai jaket hitam berlari dari tempat kejadian sekitar pukul 21.30. Dia membawa tas besar dan terlihat gugup.'),
 	('327672583656', 'Saya mendengar teriakan dari arah kompleks sekitar pukul 15.00, lalu melihat dua orang naik motor dengan kecepatan tinggi tanpa helm.'),
@@ -91,7 +91,7 @@ CREATE TABLE IF NOT EXISTS `laporan_kriminal` (
   `tempat` varchar(50) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
--- Dumping data for table db_detektif.laporan_kriminal: ~50 rows (approximately)
+-- Dumping data for table db_detektif.laporan_kriminal: ~0 rows (approximately)
 INSERT INTO `laporan_kriminal` (`tanggal`, `jenis`, `keterangan`, `tempat`) VALUES
 	('2021-04-02', 'Perampokan', '2 pelaku bersenjata merampas tas dan perhiasan korban', 'Kompleks Mawar'),
 	('2021-06-03', 'Penipuan', 'Korban tertipu investasi fiktif sebesar Rp50 juta', 'Jl. Kenanga'),
@@ -210,13 +210,13 @@ INSERT INTO `segar_bugar_check_in` (`id_member`, `tgl_check_in`, `jam_check_in`,
 	('SV8594', '2020-02-20', '13:30:00', '19:45:00'),
 	('GD2745', '2023-12-06', '15:30:00', '06:30:00'),
 	('SV4672', '2022-08-24', '08:15:00', '09:15:00'),
-	('GD1339', '2020-07-16', '10:45:00', '07:00:00'),
+	('BR1339', '2020-07-16', '10:45:00', '07:00:00'),
 	('BR5443', '2025-04-25', '09:00:00', '13:30:00'),
 	('SV3300', '2024-04-17', '07:00:00', '08:00:00'),
 	('BR5236', '2023-09-05', '12:00:00', '13:30:00'),
 	('GD9420', '2024-11-11', '07:00:00', '10:00:00'),
 	('GD7528', '2024-08-27', '20:45:00', '17:45:00'),
-	('SV4025', '2024-09-11', '19:00:00', '08:15:00'),
+	('GD1425', '2020-07-16', '10:00:00', '13:15:00'),
 	('GD1402', '2020-08-18', '11:15:00', '13:30:00'),
 	('BR6368', '2021-05-28', '08:30:00', '14:30:00'),
 	('SV1150', '2024-07-14', '06:00:00', '15:30:00'),
@@ -239,7 +239,7 @@ INSERT INTO `segar_bugar_check_in` (`id_member`, `tgl_check_in`, `jam_check_in`,
 	('SV6980', '2024-11-04', '13:15:00', '14:15:00'),
 	('BR9999', '2020-04-04', '07:15:00', '20:00:00'),
 	('GD6867', '2020-07-16', '07:45:00', '10:30:00'),
-	('GD1150', '2020-07-16', '11:30:00', '06:30:00'),
+	('GD1150', '2020-07-16', '11:30:00', '14:30:00'),
 	('BR8215', '2024-10-19', '15:15:00', '18:15:00'),
 	('BR8775', '2024-12-26', '11:15:00', '21:15:00'),
 	('GD7889', '2021-05-26', '14:30:00', '21:45:00'),
@@ -266,6 +266,7 @@ CREATE TABLE IF NOT EXISTS `segar_bugar_member` (
 
 -- Dumping data for table db_detektif.segar_bugar_member: ~100 rows (approximately)
 INSERT INTO `segar_bugar_member` (`id`, `nik`, `tgl_daftar`, `status_member`) VALUES
+	('BR1339', '327668319644', '2023-06-24', 'bronze'),
 	('BR1345', '327640790629', '2021-11-20', 'bronze'),
 	('BR1478', '327632703423', '2021-04-02', 'bronze'),
 	('BR1691', '327656609890', '2023-01-07', 'bronze'),
@@ -306,7 +307,7 @@ INSERT INTO `segar_bugar_member` (`id`, `nik`, `tgl_daftar`, `status_member`) VA
 	('GD1047', '327652513416', '2019-06-07', 'gold'),
 	('GD1150', '327666856597', '2025-03-15', 'gold'),
 	('GD1331', '327648608359', '2004-02-02', 'gold'),
-	('GD1339', '327668319644', '2023-06-24', 'gold'),
+	('GD1425', '327669649706', '2020-03-05', 'gold'),
 	('GD1746', '327696681765', '2014-02-09', 'gold'),
 	('GD1751', '327644304758', '2005-10-06', 'gold'),
 	('GD2036', '327684442639', '2022-05-11', 'gold'),
@@ -346,7 +347,6 @@ INSERT INTO `segar_bugar_member` (`id`, `nik`, `tgl_daftar`, `status_member`) VA
 	('SV2958', '327686692850', '2022-02-07', 'silver'),
 	('SV3065', '327698525080', '2023-10-19', 'silver'),
 	('SV3300', '327631095652', '2020-05-03', 'silver'),
-	('SV4025', '327669649706', '2020-03-05', 'silver'),
 	('SV4316', '327650033083', '2022-04-14', 'silver'),
 	('SV4672', '327664836619', '2022-09-19', 'silver'),
 	('SV4893', '327648606834', '2023-12-16', 'silver'),
@@ -379,7 +379,7 @@ CREATE TABLE IF NOT EXISTS `surat_izin_mengemudi` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
--- Dumping data for table db_detektif.surat_izin_mengemudi: ~100 rows (approximately)
+-- Dumping data for table db_detektif.surat_izin_mengemudi: ~150 rows (approximately)
 INSERT INTO `surat_izin_mengemudi` (`id`, `usia`, `tinggi_badan`, `jenis_kelamin`, `no_plat`, `jenis_kendaraan`, `model_kendaraan`) VALUES
 	(1, 64, 165, 'Laki-laki', 'E4237Y', 'Roda Dua', 'Xenia'),
 	(2, 58, 181, 'Perempuan', 'E7465X', 'Roda Empat', 'Beat'),
@@ -388,7 +388,7 @@ INSERT INTO `surat_izin_mengemudi` (`id`, `usia`, `tinggi_badan`, `jenis_kelamin
 	(5, 62, 187, 'Laki-laki', 'B8976Z', 'Roda Empat', 'Xenia'),
 	(6, 31, 183, 'Perempuan', 'B9848X', 'Roda Dua', 'Avanza'),
 	(7, 27, 180, 'Perempuan', 'E3201Z', 'Roda Empat', 'Brio'),
-	(8, 35, 159, 'Laki-laki', 'B2523Y', 'Roda Empat', 'Brio'),
+	(8, 35, 159, 'Perempuan', 'B2523Y', 'Roda Empat', 'Brio'),
 	(9, 62, 190, 'Laki-laki', 'E8968X', 'Roda Empat', 'Fortuner'),
 	(10, 58, 185, 'Laki-laki', 'D4139X', 'Roda Empat', 'Beat'),
 	(11, 54, 158, 'Laki-laki', 'B6855Z', 'Roda Dua', 'Beat'),
@@ -443,7 +443,7 @@ INSERT INTO `surat_izin_mengemudi` (`id`, `usia`, `tinggi_badan`, `jenis_kelamin
 	(60, 54, 167, 'Laki-laki', 'E5803X', 'Roda Dua', 'Vario'),
 	(61, 63, 170, 'Perempuan', 'B2493X', 'Roda Dua', 'Brio'),
 	(62, 34, 165, 'Laki-laki', 'D7346Z', 'Roda Dua', 'Vario'),
-	(63, 36, 164, 'Perempuan', 'E8724X', 'Roda Empat', 'Fortuner'),
+	(63, 36, 164, 'Laki-laki', 'B9924X', 'Roda Dua', 'Vario'),
 	(64, 34, 150, 'Laki-laki', 'E6146Z', 'Roda Dua', 'Fortuner'),
 	(65, 60, 169, 'Laki-laki', 'E7326Y', 'Roda Dua', 'Xenia'),
 	(66, 57, 162, 'Laki-laki', 'B9964X', 'Roda Empat', 'Xenia'),
@@ -480,7 +480,57 @@ INSERT INTO `surat_izin_mengemudi` (`id`, `usia`, `tinggi_badan`, `jenis_kelamin
 	(97, 47, 175, 'Laki-laki', 'D2819X', 'Roda Empat', 'Vario'),
 	(98, 52, 189, 'Perempuan', 'D4727X', 'Roda Dua', 'Brio'),
 	(99, 48, 185, 'Laki-laki', 'D7323Y', 'Roda Dua', 'Xenia'),
-	(100, 23, 178, 'Laki-laki', 'E8460Y', 'Roda Dua', 'Vario');
+	(100, 23, 178, 'Laki-laki', 'E8460Y', 'Roda Dua', 'Vario'),
+	(1000, 25, 181, 'Laki-laki', 'B9997Z', 'Roda Empat', 'Avanza'),
+	(1001, 38, 170, 'Laki-laki', 'B9967Y', 'Roda Dua', 'Fortuner'),
+	(1002, 36, 165, 'Laki-laki', 'B9969Z', 'Roda Dua', 'Xenia'),
+	(1003, 50, 156, 'Perempuan', 'B9915X', 'Roda Dua', 'Xenia'),
+	(1004, 32, 165, 'Laki-laki', 'B9932Y', 'Roda Empat', 'Brio'),
+	(1005, 20, 179, 'Laki-laki', 'B9929X', 'Roda Dua', 'Avanza'),
+	(1006, 35, 171, 'Laki-laki', 'B9999Z', 'Roda Empat', 'Vario'),
+	(1007, 40, 159, 'Perempuan', 'B9938X', 'Roda Empat', 'Brio'),
+	(1008, 65, 165, 'Perempuan', 'B9925X', 'Roda Dua', 'Beat'),
+	(1009, 23, 187, 'Perempuan', 'B9961Y', 'Roda Dua', 'Mio'),
+	(1010, 23, 159, 'Laki-laki', 'B9950Z', 'Roda Empat', 'Avanza'),
+	(1011, 60, 161, 'Laki-laki', 'B9945Z', 'Roda Dua', 'Vario'),
+	(1012, 36, 188, 'Laki-laki', 'B9975Z', 'Roda Dua', 'Beat'),
+	(1013, 32, 178, 'Perempuan', 'B9951Y', 'Roda Dua', 'Fortuner'),
+	(1014, 52, 150, 'Laki-laki', 'B9948X', 'Roda Empat', 'Brio'),
+	(1015, 49, 168, 'Laki-laki', 'B9930Y', 'Roda Empat', 'Xenia'),
+	(1016, 34, 177, 'Laki-laki', 'B9960Z', 'Roda Empat', 'Xenia'),
+	(1017, 25, 188, 'Perempuan', 'B9947Z', 'Roda Dua', 'Avanza'),
+	(1018, 63, 187, 'Perempuan', 'B9932X', 'Roda Empat', 'Beat'),
+	(1019, 42, 188, 'Laki-laki', 'B9943Y', 'Roda Empat', 'Vario'),
+	(1020, 41, 176, 'Perempuan', 'B2669X', 'Roda Empat', 'Brio'),
+	(1021, 35, 166, 'Laki-laki', 'E4830Y', 'Roda Empat', 'Vario'),
+	(1022, 45, 150, 'Laki-laki', 'D6086Z', 'Roda Empat', 'Fortuner'),
+	(1023, 52, 188, 'Laki-laki', 'D4748Y', 'Roda Empat', 'Avanza'),
+	(1024, 21, 159, 'Perempuan', 'B3232Y', 'Roda Empat', 'Xenia'),
+	(1025, 32, 158, 'Laki-laki', 'E8398X', 'Roda Empat', 'Mio'),
+	(1026, 60, 186, 'Laki-laki', 'B7090X', 'Roda Dua', 'Brio'),
+	(1027, 45, 189, 'Laki-laki', 'E3714Z', 'Roda Dua', 'Vario'),
+	(1028, 55, 179, 'Laki-laki', 'B6203X', 'Roda Empat', 'Brio'),
+	(1029, 40, 154, 'Perempuan', 'B4371Y', 'Roda Empat', 'Beat'),
+	(1030, 48, 181, 'Laki-laki', 'E8711Y', 'Roda Empat', 'Fortuner'),
+	(1031, 54, 151, 'Perempuan', 'B7945X', 'Roda Dua', 'Fortuner'),
+	(1032, 58, 183, 'Perempuan', 'D9685X', 'Roda Empat', 'Vario'),
+	(1033, 51, 166, 'Laki-laki', 'D6880X', 'Roda Dua', 'Xenia'),
+	(1034, 37, 177, 'Laki-laki', 'D8040Y', 'Roda Empat', 'Fortuner'),
+	(1035, 44, 155, 'Perempuan', 'D5808Z', 'Roda Empat', 'Mio'),
+	(1036, 44, 162, 'Perempuan', 'B4899Z', 'Roda Empat', 'Avanza'),
+	(1037, 56, 160, 'Laki-laki', 'D4913Z', 'Roda Dua', 'Xenia'),
+	(1038, 41, 172, 'Laki-laki', 'D4424Z', 'Roda Empat', 'Brio'),
+	(1039, 50, 151, 'Perempuan', 'B8580Y', 'Roda Empat', 'Vario'),
+	(1040, 65, 154, 'Perempuan', 'E4716Y', 'Roda Dua', 'Avanza'),
+	(1041, 31, 179, 'Laki-laki', 'B7940Z', 'Roda Dua', 'Xenia'),
+	(1042, 65, 164, 'Perempuan', 'E4831X', 'Roda Dua', 'Brio'),
+	(1043, 56, 176, 'Perempuan', 'D5944Y', 'Roda Empat', 'Fortuner'),
+	(1044, 46, 151, 'Laki-laki', 'D5144Z', 'Roda Empat', 'Beat'),
+	(1045, 29, 165, 'Perempuan', 'B5305X', 'Roda Dua', 'Fortuner'),
+	(1046, 48, 152, 'Laki-laki', 'D1539Z', 'Roda Empat', 'Mio'),
+	(1047, 19, 155, 'Perempuan', 'D2507Z', 'Roda Empat', 'Fortuner'),
+	(1048, 36, 169, 'Laki-laki', 'E3800X', 'Roda Dua', 'Mio'),
+	(1049, 59, 183, 'Perempuan', 'D5239Y', 'Roda Dua', 'Xenia');
 
 -- Dumping structure for table db_detektif.warga
 CREATE TABLE IF NOT EXISTS `warga` (
@@ -492,8 +542,19 @@ CREATE TABLE IF NOT EXISTS `warga` (
   PRIMARY KEY (`nik`) USING BTREE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
--- Dumping data for table db_detektif.warga: ~100 rows (approximately)
+-- Dumping data for table db_detektif.warga: ~150 rows (approximately)
 INSERT INTO `warga` (`nik`, `nama`, `id_sim`, `alamat`, `no_rumah`) VALUES
+	('151429997253', 'Cinthia Haryanti, S.IP', 1016, 'Gg. Cihampelas', 111),
+	('188785543725', 'Rahayu Halimah', 1022, 'Jl. Tebet Barat Dalam', 109),
+	('198102655026', 'Maimunah Simanjuntak', 1047, 'Jalan Waringin', 34),
+	('213994182426', 'Irma Wahyuni', 1010, 'Jalan Sukabumi', 173),
+	('260953739662', 'Tgk. Mulyono Pangestu, S.Psi', 1040, 'Jalan Peta', 50),
+	('266460813775', 'Harsana Prasetya', 1018, 'Jalan KH Amin Jasuta', 34),
+	('272180897692', 'Eluh Maulana', 1012, 'Jalan Moch. Ramdan', 198),
+	('288451811420', 'Ellis Usada', 1042, 'Gg. K.H. Wahid Hasyim', 108),
+	('303497660081', 'Najwa Kuswandari', 1008, 'Gang S. Parman', 29),
+	('318946596045', 'Humaira Siregar', 1031, 'Gang Gegerkalong Hilir', 69),
+	('322019781727', 'Prabowo Rajasa', 1028, 'Gang M.H Thamrin', 66),
 	('327611867186', 'Budi Wijaya', 65, 'Kompleks Melati', 8),
 	('327612019118', 'Ani Wijaya', 16, 'Jl. Kenanga', 105),
 	('327612076297', 'Dewi Nugroho', 40, 'Jl. Merpati', 195),
@@ -557,7 +618,7 @@ INSERT INTO `warga` (`nik`, `nama`, `id_sim`, `alamat`, `no_rumah`) VALUES
 	('327664615285', 'Hendra Nugroho', 26, 'Kompleks Anggrek', 4),
 	('327664836619', 'Agus Wijaya', 56, 'Jl. Kenanga', 180),
 	('327666856597', 'Arman Arsya', 66, 'Jl. Kenanga', 26),
-	('327668319644', 'Bisma Arya', 8, 'Jl. Flamboyan', 19),
+	('327668319644', 'Rina Sari', 8, 'Jl. Flamboyan', 19),
 	('327669406617', 'Budi Siregar', 29, 'Kompleks Anggrek', 5),
 	('327669649706', 'Wawan Santoso', 63, 'Jl. Flamboyan', 157),
 	('327672142825', 'Lina Kurniawan', 25, 'Jl. Flamboyan', 4),
@@ -593,7 +654,46 @@ INSERT INTO `warga` (`nik`, `nama`, `id_sim`, `alamat`, `no_rumah`) VALUES
 	('327697188352', 'Lina Saputra', 87, 'Jl. Flamboyan', 12),
 	('327697666153', 'Tini Putri', 19, 'Jl. Kenanga', 111),
 	('327698322748', 'Wawan Kurniawan', 39, 'Kompleks Mawar', 6),
-	('327698525080', 'Lina Santoso', 43, 'Kompleks Mawar', 7);
+	('327698525080', 'Lina Santoso', 43, 'Kompleks Mawar', 7),
+	('337916791958', 'Argono Napitupulu', 1041, 'Gang K.H. Wahid Hasyim', 121),
+	('351371378718', 'Silvia Zulaika', 1045, 'Gang Jend. A. Yani', 47),
+	('362676978082', 'Zulaikha Sihombing', 1029, 'Jalan Soekarno Hatta', 90),
+	('373762961630', 'Dr. Ilyas Mandala, S.Ked', 1033, 'Gg. Kebonjati', 33),
+	('389986565181', 'Jarwa Maheswara, M.Ak', 1019, 'Gg. M.H Thamrin', 138),
+	('398347954255', 'Prayitna Thamrin, S.Ked', 1044, 'Gang Veteran', 197),
+	('404976035397', 'Syahrini Kusmawati', 1005, 'Gang Pelajar Pejuang', 177),
+	('430491899288', 'Jamalia Hutapea', 1034, 'Gang Asia Afrika', 44),
+	('453233164086', 'drg. Damar Astuti', 1021, 'Gg. Soekarno Hatta', 92),
+	('455735353978', 'Ciaobella Usamah, M.Farm', 1027, 'Gang Ir. H. Djuanda', 135),
+	('456373336763', 'Almira Fujiati', 1015, 'Jalan R.E Martadinata', 41),
+	('463675551371', 'Safina Utami', 1046, 'Gg. Jamika', 186),
+	('485989313165', 'Makara Suryono', 1032, 'Gang Indragiri', 137),
+	('498919944166', 'Ajimat Suwarno, S.Pd', 1023, 'Jalan Antapani Lama', 185),
+	('516595373791', 'Dr. Harjo Sihotang', 1036, 'Jl. Raya Ujungberung', 127),
+	('523522555296', 'Oliva Mahendra', 1009, 'Jl. Stasiun Wonokromo', 87),
+	('531398413791', 'Nugraha Hakim', 1037, 'Jl. Suryakencana', 157),
+	('564068992394', 'Mutia Sirait', 1049, 'Gang R.E Martadinata', 151),
+	('575071690220', 'Puti Gina Wijaya', 1007, 'Gang R.E Martadinata', 168),
+	('605887511411', 'Jaswadi Puspita', 1048, 'Jl. Rawamangun', 74),
+	('624299132347', 'Drs. Padma Palastri', 1017, 'Gang Jakarta', 167),
+	('638840734145', 'Capa Suwarno', 1035, 'Gg. Stasiun Wonokromo', 93),
+	('644044321464', 'Puti Ami Iswahyudi', 1003, 'Jl. R.E Martadinata', 30),
+	('669173875808', 'Keisha Rahmawati', 1014, 'Jl. Rajawali Barat', 19),
+	('687951043631', 'Dr. Oliva Susanti', 1020, 'Jalan Pasirkoja', 80),
+	('694470041605', 'Natalia Halimah, M.M.', 1038, 'Gang Ciumbuleuit', 196),
+	('698087216516', 'Dr. Devi Utama, S.Kom', 1030, 'Gg. Jakarta', 116),
+	('698487768266', 'Ifa Kuswoyo', 1025, 'Gang BKR', 132),
+	('713590776316', 'Rahmat Sirait', 1013, 'Gg. Kiaracondong', 140),
+	('726519726893', 'Puput Sinaga', 1039, 'Jl. Cihampelas', 34),
+	('738873459425', 'Dalimin Sirait', 1002, 'Gang Otto Iskandardinata', 162),
+	('807181885676', 'dr. Vanya Nainggolan, M.TI.', 1001, 'Gg. Cihampelas', 169),
+	('811389075831', 'Cut Azalea Anggraini', 1000, 'Jl. Pacuan Kuda', 157),
+	('826860181255', 'Hasna Halim', 1011, 'Jl. Pelajar Pejuang', 107),
+	('829946523725', 'Uchita Hidayat', 1004, 'Gang Rawamangun', 132),
+	('862020560784', 'Hamzah Anggraini', 1006, 'Gang S. Parman', 38),
+	('926769440455', 'Hasna Utami', 1026, 'Gg. Raya Ujungberung', 140),
+	('996039059840', 'Zaenab Zulkarnain', 1043, 'Jl. Gegerkalong Hilir', 198),
+	('996519973562', 'Puput Wulandari', 1024, 'Gang Cihampelas', 24);
 
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
