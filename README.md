@@ -8,7 +8,7 @@
 <br>
 <p>Kurang lebih skema datanya kayak gini nih:</p>
 
-![skema_detektif](https://github.com/user-attachments/assets/1d16dcae-0ddf-4449-99be-f908693db9aa)
+![skema_detektif](skema_detektif.jpg)
 
 <hr>
 
