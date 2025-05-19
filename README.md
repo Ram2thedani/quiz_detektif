@@ -29,7 +29,7 @@
 <h4>📌 Catatan:</h4>
 <ul>
   <li>Quiz ini adalah versi alih bahasa dari game "SQL Murder Mystery" dari https://mystery.knightlab.com/</li>
-  <li>Semua nama, tempat, dan kejadian di database ini fiksi dan cuma buat latihan aja.</li>
+  <li>Semua nama dan kejadian di database ini fiksi dan cuma buat latihan aja.</li>
   <li>Data dummy dibuat secara acak dan gak ada hubungannya dengan dunia nyata.</li>
   <li>Kalau ada yang mirip sama orang atau tempat beneran, itu kebetulan doang 😅</li>
 </ul>
