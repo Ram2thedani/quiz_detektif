@@ -1,39 +1,42 @@
--- --------------------------------------------------------
--- Host:                         127.0.0.1
--- Server version:               8.0.30 - MySQL Community Server - GPL
--- Server OS:                    Win64
--- HeidiSQL Version:             12.1.0.6537
--- --------------------------------------------------------
+-- phpMyAdmin SQL Dump
+-- version 5.2.0
+-- https://www.phpmyadmin.net/
+--
+-- Host: localhost:3306
+-- Generation Time: May 20, 2025 at 03:06 AM
+-- Server version: 8.0.30
+-- PHP Version: 8.2.26
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+START TRANSACTION;
+SET time_zone = "+00:00";
+
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET NAMES utf8 */;
-/*!50503 SET NAMES utf8mb4 */;
-/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
-/*!40103 SET TIME_ZONE='+00:00' */;
-/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
-/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
-/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
 
+--
+-- Database: `db_detektif`
+--
 
--- Dumping database structure for db_detektif
-CREATE DATABASE
-IF NOT EXISTS `db_detektif` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
-USE `db_detektif`;
+-- --------------------------------------------------------
 
--- Dumping structure for table db_detektif.interview
-CREATE TABLE
-IF NOT EXISTS `interview`
-(
-  `nik` varchar
-(50) DEFAULT NULL,
+--
+-- Table structure for table `interview`
+--
+
+CREATE TABLE `interview` (
+  `nik` varchar(50) DEFAULT NULL,
   `isi_interview` text
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
--- Dumping data for table db_detektif.interview: ~0 rows (approximately)
-INSERT INTO `interview` (`
-nik`,
-`isi_interview
-`) VALUES
+--
+-- Dumping data for table `interview`
+--
+
+INSERT INTO `interview` (`nik`, `isi_interview`) VALUES
 ('327660070541', 'Saya melihat seorang pria tinggi memakai jaket hitam berlari dari tempat kejadian sekitar pukul 21.30. Dia membawa tas besar dan terlihat gugup.'),
 ('327672583656', 'Saya mendengar teriakan dari arah kompleks sekitar pukul 15.00, lalu melihat dua orang naik motor dengan kecepatan tinggi tanpa helm.'),
 ('327629536035', 'Sebelum kejadian, saya melihat seseorang mencurigakan mondar-mandir di depan rumah korban selama 2 hari berturut-turut.'),
@@ -61,7 +64,7 @@ nik`,
 ('327672142825', 'Saya menemukan sepotong kain robek yang mencurigakan di pagar rumah saya setelah kejadian.'),
 ('327664615285', 'Saya melihat seseorang memakai topeng komando berlari menuju jalan utama sekitar pukul 22.00.'),
 ('327684442639', 'Ada mobil van putih yang tidak biasa parkir di ujung jalan selama 3 hari sebelum kejadian.'),
-('327628171271', 'Saya mendengar suara teriakan "tolong" sekitar pukul 19.30 tapi tidak yakin dari rumah mana.'),
+('327628171271', 'Saya mendengar suara teriakan \"tolong\" sekitar pukul 19.30 tapi tidak yakin dari rumah mana.'),
 ('327669406617', 'Saya melihat seseorang bersembunyi di semak-semak depan kompleks, mencurigakan.'),
 ('327675567447', 'Ada bekas ban sepeda motor di tanah basah depan rumah korban, mungkin milik pelaku.'),
 ('327661562470', 'Saya melihat seseorang membawa golok kecil berlari ke arah sungai belakang kompleks.'),
@@ -79,7 +82,7 @@ nik`,
 ('327698525080', 'Saya melihat seseorang bersembunyi di balik mobil tetangga, mencurigakan.'),
 ('327656609890', 'Saya mendengar suara langkah kaki cepat di atap rumah saya malam itu, mungkin pelaku melarikan diri.'),
 ('327627750246', 'Ada bekas tapak sepatu besar di kebun saya yang mengarah ke rumah korban.'),
-('327652271003', 'Saya mendengar suara tembakan lalu saya melihat seorang pria bertato lari terburu-buru. Dia membawa tas dari gym "Segar Bugar". Ada nomor member di tas tersebut dengan awalan "GD1", biasanya itu untuk member Gold. Saya juga melihat pria itu mengendarai mobil dengan plat ber awalan "B99".'),
+('327652271003', 'Saya mendengar suara tembakan lalu saya melihat seorang pria bertato lari terburu-buru. Dia membawa tas dari gym \"Segar Bugar\". Ada nomor member di tas tersebut dengan awalan \"GD1\", biasanya itu untuk member Gold. Saya juga melihat pria itu mengendarai mobil dengan plat ber awalan \"B99\".'),
 ('327657813820', 'Saya mendengar suara seperti orang berdebat dari rumah korban sekitar 1 jam sebelum kejadian.'),
 ('327656903295', 'Ada tumpukan batu bata yang tidak biasa di belakang rumah korban setelah kejadian.'),
 ('327637827810', 'Saya melihat seseorang dengan kaos bergambar tengkorak berlari dari arah rumah korban.'),
@@ -90,25 +93,24 @@ nik`,
 ('327620743354', 'Saya mendengar suara seperti orang memanjat pagar sekitar pukul 23.30 malam itu.'),
 ('327650932333', 'Ada bekas seperti darah di gagang pintu pagar rumah korban setelah kejadian.');
 
--- Dumping structure for table db_detektif.laporan_kriminal
-CREATE TABLE
-IF NOT EXISTS `laporan_kriminal`
-(
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `laporan_kriminal`
+--
+
+CREATE TABLE `laporan_kriminal` (
   `tanggal` date DEFAULT NULL,
-  `jenis` varchar
-(50) DEFAULT NULL,
-  `keterangan` text CHARACTER
-SET utf8mb4
-COLLATE utf8mb4_0900_ai_ci,
-  `tempat` varchar
-(50) DEFAULT NULL
+  `jenis` varchar(50) DEFAULT NULL,
+  `keterangan` text CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
+  `tempat` varchar(50) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
--- Dumping data for table db_detektif.laporan_kriminal: ~0 rows (approximately)
-INSERT INTO `laporan_kriminal` (`
-tanggal`,
-`jenis
-`, `keterangan`, `tempat`) VALUES
+--
+-- Dumping data for table `laporan_kriminal`
+--
+
+INSERT INTO `laporan_kriminal` (`tanggal`, `jenis`, `keterangan`, `tempat`) VALUES
 ('2021-04-02', 'Perampokan', '2 pelaku bersenjata merampas tas dan perhiasan korban', 'Kompleks Mawar'),
 ('2021-06-03', 'Penipuan', 'Korban tertipu investasi fiktif sebesar Rp50 juta', 'Jl. Kenanga'),
 ('2025-08-28', 'Perampokan', 'Perampokan toko emas oleh 4 orang bermotor', 'Kompleks Mawar'),
@@ -151,7 +153,7 @@ tanggal`,
 ('2024-11-16', 'Perampokan', 'Karyawan toko dirampok saat tutup toko', 'Kompleks Melati'),
 ('2021-06-10', 'Perampokan', 'Perampokan toko kelontong oleh remaja', 'Kompleks Anggrek'),
 ('2020-10-08', 'Pembunuhan', 'Pembunuhan akibat perselingkuhan', 'Kompleks Anggrek'),
-('2024-11-23', 'Pencurian', 'Pencurian dengan modus pecah kaca mobil, 1 unit handphone dan laptop raib', 'Jl. Flamboyan'),
+('2024-11-23', 'Pencurian', 'Pencurian dengan modus pecah kaca mobil', 'Jl. Flamboyan'),
 ('2024-10-17', 'Pembunuhan', 'Pembunuhan oleh tetangga akibat dendam', 'Jl. Kenanga'),
 ('2025-10-26', 'Penganiayaan', 'Penganiayaan mahasiswa oleh senior kampus', 'Jl. Flamboyan'),
 ('2023-11-20', 'Pencurian', 'Pencurian oleh sindikat pencuri spesialis ruko', 'Jl. Flamboyan'),
@@ -160,22 +162,24 @@ tanggal`,
 ('2023-11-21', 'Perampokan', 'Perampokan dengan modus pengantaran makanan', 'Jl. Flamboyan'),
 ('2020-02-19', 'Pembunuhan', 'Pembunuhan oleh pacar akibat cemburu', 'Kompleks Melati');
 
--- Dumping structure for table db_detektif.segar_bugar_check_in
-CREATE TABLE
-IF NOT EXISTS `segar_bugar_check_in`
-(
-  `id_member` varchar
-(50) DEFAULT NULL,
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `segar_bugar_check_in`
+--
+
+CREATE TABLE `segar_bugar_check_in` (
+  `id_member` varchar(50) DEFAULT NULL,
   `tgl_check_in` date DEFAULT NULL,
   `jam_check_in` time DEFAULT NULL,
   `jam_check_out` time DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
--- Dumping data for table db_detektif.segar_bugar_check_in: ~100 rows (approximately)
-INSERT INTO `segar_bugar_check_in` (`
-id_member`,
-`tgl_check_in
-`, `jam_check_in`, `jam_check_out`) VALUES
+--
+-- Dumping data for table `segar_bugar_check_in`
+--
+
+INSERT INTO `segar_bugar_check_in` (`id_member`, `tgl_check_in`, `jam_check_in`, `jam_check_out`) VALUES
 ('SV7979', '2022-12-20', '09:15:00', '20:15:00'),
 ('SV5007', '2024-08-25', '17:45:00', '15:30:00'),
 ('GD3927', '2025-01-10', '20:30:00', '08:30:00'),
@@ -277,26 +281,24 @@ id_member`,
 ('SV5383', '2020-11-19', '16:00:00', '10:15:00'),
 ('SV8516', '2023-12-05', '14:30:00', '19:30:00');
 
--- Dumping structure for table db_detektif.segar_bugar_member
-CREATE TABLE
-IF NOT EXISTS `segar_bugar_member`
-(
-  `id` varchar
-(50) NOT NULL DEFAULT '',
-  `nik` varchar
-(50) DEFAULT NULL,
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `segar_bugar_member`
+--
+
+CREATE TABLE `segar_bugar_member` (
+  `id` varchar(50) NOT NULL DEFAULT '',
+  `nik` varchar(50) DEFAULT NULL,
   `tgl_daftar` date DEFAULT NULL,
-  `status_member` varchar
-(50) DEFAULT NULL,
-  PRIMARY KEY
-(`id`)
+  `status_member` varchar(50) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
--- Dumping data for table db_detektif.segar_bugar_member: ~100 rows (approximately)
-INSERT INTO `segar_bugar_member` (`
-id`,
-`nik
-`, `tgl_daftar`, `status_member`) VALUES
+--
+-- Dumping data for table `segar_bugar_member`
+--
+
+INSERT INTO `segar_bugar_member` (`id`, `nik`, `tgl_daftar`, `status_member`) VALUES
 ('BR1339', '327668319644', '2023-06-24', 'bronze'),
 ('BR1345', '327640790629', '2021-11-20', 'bronze'),
 ('BR1478', '327632703423', '2021-04-02', 'bronze'),
@@ -398,30 +400,27 @@ id`,
 ('SV9675', '327634351584', '2020-07-16', 'silver'),
 ('SV9700', '327698322748', '2024-02-04', 'silver');
 
--- Dumping structure for table db_detektif.surat_izin_mengemudi
-CREATE TABLE
-IF NOT EXISTS `surat_izin_mengemudi`
-(
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `surat_izin_mengemudi`
+--
+
+CREATE TABLE `surat_izin_mengemudi` (
   `id` int NOT NULL,
   `usia` int DEFAULT NULL,
   `tinggi_badan` int DEFAULT NULL,
-  `jenis_kelamin` varchar
-(50) DEFAULT NULL,
-  `no_plat` varchar
-(50) DEFAULT NULL,
-  `jenis_kendaraan` enum
-('Roda Dua','Roda Empat') DEFAULT NULL,
-  `model_kendaraan` varchar
-(50) DEFAULT NULL,
-  PRIMARY KEY
-(`id`)
+  `jenis_kelamin` varchar(50) DEFAULT NULL,
+  `no_plat` varchar(50) DEFAULT NULL,
+  `jenis_kendaraan` enum('Roda Dua','Roda Empat') DEFAULT NULL,
+  `model_kendaraan` varchar(50) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
--- Dumping data for table db_detektif.surat_izin_mengemudi: ~150 rows (approximately)
-INSERT INTO `surat_izin_mengemudi` (`
-id`,
-`usia
-`, `tinggi_badan`, `jenis_kelamin`, `no_plat`, `jenis_kendaraan`, `model_kendaraan`) VALUES
+--
+-- Dumping data for table `surat_izin_mengemudi`
+--
+
+INSERT INTO `surat_izin_mengemudi` (`id`, `usia`, `tinggi_badan`, `jenis_kelamin`, `no_plat`, `jenis_kendaraan`, `model_kendaraan`) VALUES
 (1, 64, 165, 'Laki-laki', 'E4237Y', 'Roda Dua', 'Xenia'),
 (2, 58, 181, 'Perempuan', 'E7465X', 'Roda Empat', 'Beat'),
 (3, 61, 188, 'Perempuan', 'B5307Z', 'Roda Empat', 'Brio'),
@@ -573,26 +572,25 @@ id`,
 (1048, 36, 169, 'Laki-laki', 'E3800X', 'Roda Dua', 'Mio'),
 (1049, 59, 183, 'Perempuan', 'D5239Y', 'Roda Dua', 'Xenia');
 
--- Dumping structure for table db_detektif.warga
-CREATE TABLE
-IF NOT EXISTS `warga`
-(
-  `nik` varchar
-(50) NOT NULL DEFAULT '',
-  `nama` varchar
-(50) NOT NULL DEFAULT '',
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `warga`
+--
+
+CREATE TABLE `warga` (
+  `nik` varchar(50) NOT NULL DEFAULT '',
+  `nama` varchar(50) NOT NULL DEFAULT '',
   `id_sim` int NOT NULL DEFAULT '0',
   `alamat` text NOT NULL,
-  `no_rumah` int NOT NULL DEFAULT '0',
-  PRIMARY KEY
-(`nik`) USING BTREE
+  `no_rumah` int NOT NULL DEFAULT '0'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
--- Dumping data for table db_detektif.warga: ~150 rows (approximately)
-INSERT INTO `warga` (`
-nik`,
-`nama
-`, `id_sim`, `alamat`, `no_rumah`) VALUES
+--
+-- Dumping data for table `warga`
+--
+
+INSERT INTO `warga` (`nik`, `nama`, `id_sim`, `alamat`, `no_rumah`) VALUES
 ('151429997253', 'Cinthia Haryanti, S.IP', 1016, 'Gg. Cihampelas', 111),
 ('188785543725', 'Rahayu Halimah', 1022, 'Jl. Tebet Barat Dalam', 109),
 ('198102655026', 'Maimunah Simanjuntak', 1047, 'Jalan Waringin', 34),
@@ -744,8 +742,29 @@ nik`,
 ('996039059840', 'Zaenab Zulkarnain', 1043, 'Jl. Gegerkalong Hilir', 198),
 ('996519973562', 'Puput Wulandari', 1024, 'Gang Cihampelas', 24);
 
-/*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
-/*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
-/*!40014 SET FOREIGN_KEY_CHECKS=IFNULL(@OLD_FOREIGN_KEY_CHECKS, 1) */;
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `segar_bugar_member`
+--
+ALTER TABLE `segar_bugar_member`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `surat_izin_mengemudi`
+--
+ALTER TABLE `surat_izin_mengemudi`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `warga`
+--
+ALTER TABLE `warga`
+  ADD PRIMARY KEY (`nik`) USING BTREE;
+COMMIT;
+
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
-/*!40111 SET SQL_NOTES=IFNULL(@OLD_SQL_NOTES, 1) */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
