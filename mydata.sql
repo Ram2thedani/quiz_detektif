@@ -1,0 +1,1224 @@
+BEGIN TRANSACTION;
+CREATE TABLE `interview`
+(
+  `nik` varchar
+(50) DEFAULT NULL,
+  `isi_interview` text
+);
+INSERT INTO "interview"
+VALUES('327660070541', 'Saya melihat seorang pria tinggi memakai jaket hitam berlari dari tempat kejadian sekitar pukul 21.30. Dia membawa tas besar dan terlihat gugup.');
+INSERT INTO "interview"
+VALUES('327672583656', 'Saya mendengar teriakan dari arah kompleks sekitar pukul 15.00, lalu melihat dua orang naik motor dengan kecepatan tinggi tanpa helm.');
+INSERT INTO "interview"
+VALUES('327629536035', 'Sebelum kejadian, saya melihat seseorang mencurigakan mondar-mandir di depan rumah korban selama 2 hari berturut-turut.');
+INSERT INTO "interview"
+VALUES('327614134721', 'Saya melihat mobil hitam parkir tidak wajar sejak pagi di lokasi kejadian. Nomor platnya sebagian tertutup lumpur.');
+INSERT INTO "interview"
+VALUES('327696681765', 'Ada bau aneh seperti bensin terbakar sebelum kejadian. Lalu saya melihat asap dari arah rumah korban.');
+INSERT INTO "interview"
+VALUES('327652945584', 'Saya mendengar suara pecahan kaca sekitar pukul 02.00 dini hari, tapi mengira itu hanya kucing sehingga tidak memeriksa.');
+INSERT INTO "interview"
+VALUES('327652513416', 'Seorang wanita dengan rambut merah terlihat mengambil foto rumah korban sehari sebelum kejadian.');
+INSERT INTO "interview"
+VALUES('327668319644', 'Saya mengenal pelaku dari tato di lengan kirinya, saya bertemu pelaku di gym sehari sebelum kejadian');
+INSERT INTO "interview"
+VALUES('327632247681', 'Ada bekas ban mobil tergores di jalanan dekat TKP, mungkin dari kendaraan pelaku.');
+INSERT INTO "interview"
+VALUES('327645186134', 'Saya mendengar suara pertengkaran keras sekitar 30 menit sebelum kejadian, tapi tidak bisa melihat wajah pelaku.');
+INSERT INTO "interview"
+VALUES('327651357887', 'Saya melihat seorang pria paruh baya dengan tato naga di lengan sering lewat di depan rumah korban minggu terakhir.');
+INSERT INTO "interview"
+VALUES('327664315698', 'Ada motor dengan knalpot bising parkir di depan rumah korban selama 2 jam sebelum kejadian.');
+INSERT INTO "interview"
+VALUES('327662080766', 'Saya menemukan sarung tangan karet hitam di halaman rumah saya sehari setelah kejadian.');
+INSERT INTO "interview"
+VALUES('327654773695', 'Anak saya melihat seseorang memanjat pagar rumah tetangga sekitar pukul 23.00 malam itu.');
+INSERT INTO "interview"
+VALUES('327654370651', 'Saya melihat kilatan cahaya seperti lampu senter besar dari jendela rumah korban saat kejadian.');
+INSERT INTO "interview"
+VALUES('327612019118', 'Ada tetesan darah di jalan depan rumah saya pagi setelah kejadian, sudah saya laporkan ke polisi.');
+INSERT INTO "interview"
+VALUES('327684893696', 'Saya mendengar suara mesin mobil dipercepat tiba-tiba sekitar waktu kejadian, tapi tidak melihat kendaraannya.');
+INSERT INTO "interview"
+VALUES('327693404581', 'Saya melihat seseorang membawa kotak besar berwarna biru dari rumah korban, berjalan cepat ke arah gang kecil.');
+INSERT INTO "interview"
+VALUES('327697666153', 'Peliharaan anjing saya menggonggong tidak biasa sekitar waktu kejadian, sepertinya ada orang asing di sekitar.');
+INSERT INTO "interview"
+VALUES('327644304758', 'Ada bekas sepatu berlumpur di teras rumah saya yang mengarah ke rumah korban.');
+INSERT INTO "interview"
+VALUES('327664129427', 'Saya melihat seseorang membuang sesuatu ke selokan depan rumah korban, mungkin barang bukti.');
+INSERT INTO "interview"
+VALUES('327644014702', 'Saya mendengar suara seperti barang logam jatuh dari arah rumah korban sekitar waktu kejadian.');
+INSERT INTO "interview"
+VALUES('327688893751', 'Ada bau bahan kimia aneh yang menyengat dari arah rumah korban sehari sebelum kejadian.');
+INSERT INTO "interview"
+VALUES('327686811210', 'Saya melihat seseorang bersembunyi di balik pohon besar depan rumah korban, mencurigakan.');
+INSERT INTO "interview"
+VALUES('327672142825', 'Saya menemukan sepotong kain robek yang mencurigakan di pagar rumah saya setelah kejadian.');
+INSERT INTO "interview"
+VALUES('327664615285', 'Saya melihat seseorang memakai topeng komando berlari menuju jalan utama sekitar pukul 22.00.');
+INSERT INTO "interview"
+VALUES('327684442639', 'Ada mobil van putih yang tidak biasa parkir di ujung jalan selama 3 hari sebelum kejadian.');
+INSERT INTO "interview"
+VALUES('327628171271', 'Saya mendengar suara teriakan \"tolong\" sekitar pukul 19.30 tapi tidak yakin dari rumah mana.');
+INSERT INTO "interview"
+VALUES('327669406617', 'Saya melihat seseorang bersembunyi di semak-semak depan kompleks, mencurigakan.');
+INSERT INTO "interview"
+VALUES('327675567447', 'Ada bekas ban sepeda motor di tanah basah depan rumah korban, mungkin milik pelaku.');
+INSERT INTO "interview"
+VALUES('327661562470', 'Saya melihat seseorang membawa golok kecil berlari ke arah sungai belakang kompleks.');
+INSERT INTO "interview"
+VALUES('327684182923', 'Lampu rumah korban tiba-tiba padam sekitar 10 menit sebelum kejadian, mungkin sengaja dimatikan.');
+INSERT INTO "interview"
+VALUES('327678146801', 'Saya mencium bau rokok aneh yang tidak biasa dari arah rumah korban malam itu.');
+INSERT INTO "interview"
+VALUES('327687345987', 'Saya melihat seseorang memakai jaket hoodie menutupi wajahnya mondar-mandir di depan rumah korban.');
+INSERT INTO "interview"
+VALUES('327640790629', 'Ada suara seperti barang pecah belah dari rumah korban sekitar pukul 16.00.');
+INSERT INTO "interview"
+VALUES('327675013941', 'Saya melihat seseorang membawa tas besar berwarna merah dari rumah korban, terburu-buru.');
+INSERT INTO "interview"
+VALUES('327632263712', 'Pagar belakang rumah korban terlihat rusak seperti didobrak setelah kejadian.');
+INSERT INTO "interview"
+VALUES('327652624924', 'Saya mendengar suara mesin mobil hidup tiba-tiba di tengah malam dari arah rumah korban.');
+INSERT INTO "interview"
+VALUES('327698322748', 'Saya melihat seseorang memanjat pagar samping rumah korban sekitar pukul 21.15.');
+INSERT INTO "interview"
+VALUES('327612076297', 'Ada suara teriakan perempuan dari rumah korban sekitar pukul 18.30, lalu langsung hening.');
+INSERT INTO "interview"
+VALUES('327677322367', 'Saya melihat seseorang membawa obeng besar dan senter kuat berjalan di sekitar rumah korban malam itu.');
+INSERT INTO "interview"
+VALUES('327660682845', 'Ada motor tanpa plat nomor parkir di depan rumah korban beberapa jam sebelum kejadian.');
+INSERT INTO "interview"
+VALUES('327698525080', 'Saya melihat seseorang bersembunyi di balik mobil tetangga, mencurigakan.');
+INSERT INTO "interview"
+VALUES('327656609890', 'Saya mendengar suara langkah kaki cepat di atap rumah saya malam itu, mungkin pelaku melarikan diri.');
+INSERT INTO "interview"
+VALUES('327627750246', 'Ada bekas tapak sepatu besar di kebun saya yang mengarah ke rumah korban.');
+INSERT INTO "interview"
+VALUES('327652271003', 'Saya mendengar suara tembakan lalu saya melihat seorang pria bertato lari terburu-buru. Dia membawa tas dari gym \"Segar Bugar\". Ada nomor member di tas tersebut dengan awalan \"GD1\", biasanya itu untuk member Gold. Saya juga melihat pria itu mengendarai mobil dengan plat ber awalan \"B99\".');
+INSERT INTO "interview"
+VALUES('327657813820', 'Saya mendengar suara seperti orang berdebat dari rumah korban sekitar 1 jam sebelum kejadian.');
+INSERT INTO "interview"
+VALUES('327656903295', 'Ada tumpukan batu bata yang tidak biasa di belakang rumah korban setelah kejadian.');
+INSERT INTO "interview"
+VALUES('327637827810', 'Saya melihat seseorang dengan kaos bergambar tengkorak berlari dari arah rumah korban.');
+INSERT INTO "interview"
+VALUES('327617132614', 'Saya menemukan sepatu kets kotor di halaman belakang rumah saya setelah kejadian.');
+INSERT INTO "interview"
+VALUES('327690183594', 'Saya melihat seseorang memakai sarung tangan putih mencurigakan di sekitar lokasi.');
+INSERT INTO "interview"
+VALUES('327682812914', 'Ada suara pintu dibanting keras dari arah rumah korban sekitar waktu kejadian.');
+INSERT INTO "interview"
+VALUES('327618318812', 'Saya melihat seseorang membawa koper besar berlari ke arah stasiun.');
+INSERT INTO "interview"
+VALUES('327620743354', 'Saya mendengar suara seperti orang memanjat pagar sekitar pukul 23.30 malam itu.');
+INSERT INTO "interview"
+VALUES('327650932333', 'Ada bekas seperti darah di gagang pintu pagar rumah korban setelah kejadian.');
+CREATE TABLE `segar_bugar_check_in`
+(
+  `id_member` varchar
+(50) DEFAULT NULL,
+  `tgl_check_in` date DEFAULT NULL,
+  `jam_check_in` time DEFAULT NULL,
+  `jam_check_out` time DEFAULT NULL
+);
+INSERT INTO "segar_bugar_check_in"
+VALUES('SV7979', '2022-12-20', '09:15:00', '20:15:00');
+INSERT INTO "segar_bugar_check_in"
+VALUES('SV5007', '2024-08-25', '17:45:00', '15:30:00');
+INSERT INTO "segar_bugar_check_in"
+VALUES('GD3927', '2025-01-10', '20:30:00', '08:30:00');
+INSERT INTO "segar_bugar_check_in"
+VALUES('SV9393', '2023-03-24', '19:00:00', '11:30:00');
+INSERT INTO "segar_bugar_check_in"
+VALUES('GD1746', '2025-12-12', '18:45:00', '20:30:00');
+INSERT INTO "segar_bugar_check_in"
+VALUES('GD8062', '2020-09-18', '21:00:00', '17:15:00');
+INSERT INTO "segar_bugar_check_in"
+VALUES('GD4047', '2021-04-28', '14:30:00', '08:00:00');
+INSERT INTO "segar_bugar_check_in"
+VALUES('GD9152', '2020-10-28', '20:00:00', '09:15:00');
+INSERT INTO "segar_bugar_check_in"
+VALUES('GD8627', '2023-08-21', '10:45:00', '10:00:00');
+INSERT INTO "segar_bugar_check_in"
+VALUES('BR5892', '2025-07-27', '21:15:00', '21:15:00');
+INSERT INTO "segar_bugar_check_in"
+VALUES('BR9757', '2025-08-03', '14:45:00', '13:00:00');
+INSERT INTO "segar_bugar_check_in"
+VALUES('GD3944', '2020-06-25', '06:00:00', '16:15:00');
+INSERT INTO "segar_bugar_check_in"
+VALUES('BR4338', '2024-06-01', '17:15:00', '16:30:00');
+INSERT INTO "segar_bugar_check_in"
+VALUES('BR2064', '2023-11-06', '16:30:00', '10:45:00');
+INSERT INTO "segar_bugar_check_in"
+VALUES('GD7973', '2021-02-01', '16:45:00', '20:30:00');
+INSERT INTO "segar_bugar_check_in"
+VALUES('GD8951', '2025-01-24', '15:15:00', '21:45:00');
+INSERT INTO "segar_bugar_check_in"
+VALUES('BR2663', '2021-10-01', '20:15:00', '08:15:00');
+INSERT INTO "segar_bugar_check_in"
+VALUES('BR4879', '2022-09-22', '15:30:00', '17:15:00');
+INSERT INTO "segar_bugar_check_in"
+VALUES('BR5668', '2022-05-04', '15:15:00', '06:45:00');
+INSERT INTO "segar_bugar_check_in"
+VALUES('GD3350', '2020-07-16', '12:30:00', '10:30:00');
+INSERT INTO "segar_bugar_check_in"
+VALUES('BR4159', '2021-03-23', '16:30:00', '12:45:00');
+INSERT INTO "segar_bugar_check_in"
+VALUES('BR4963', '2020-06-20', '18:00:00', '16:45:00');
+INSERT INTO "segar_bugar_check_in"
+VALUES('GD6708', '2023-12-24', '06:30:00', '10:00:00');
+INSERT INTO "segar_bugar_check_in"
+VALUES('BR6346', '2025-10-25', '06:15:00', '16:15:00');
+INSERT INTO "segar_bugar_check_in"
+VALUES('GD3675', '2020-01-28', '12:15:00', '14:30:00');
+INSERT INTO "segar_bugar_check_in"
+VALUES('GD9314', '2024-10-27', '10:45:00', '10:00:00');
+INSERT INTO "segar_bugar_check_in"
+VALUES('GD2036', '2025-02-15', '17:00:00', '10:45:00');
+INSERT INTO "segar_bugar_check_in"
+VALUES('BR6726', '2025-02-20', '16:45:00', '20:45:00');
+INSERT INTO "segar_bugar_check_in"
+VALUES('BR9702', '2023-08-08', '10:00:00', '10:45:00');
+INSERT INTO "segar_bugar_check_in"
+VALUES('GD5360', '2020-09-09', '16:00:00', '09:00:00');
+INSERT INTO "segar_bugar_check_in"
+VALUES('BR9471', '2022-11-16', '18:15:00', '07:30:00');
+INSERT INTO "segar_bugar_check_in"
+VALUES('BR8363', '2025-07-10', '15:30:00', '21:30:00');
+INSERT INTO "segar_bugar_check_in"
+VALUES('SV5539', '2020-07-16', '17:30:00', '10:00:00');
+INSERT INTO "segar_bugar_check_in"
+VALUES('SV6242', '2021-11-10', '07:45:00', '13:30:00');
+INSERT INTO "segar_bugar_check_in"
+VALUES('BR1345', '2023-11-13', '09:30:00', '09:15:00');
+INSERT INTO "segar_bugar_check_in"
+VALUES('GD5585', '2025-01-16', '08:30:00', '11:15:00');
+INSERT INTO "segar_bugar_check_in"
+VALUES('GD3289', '2023-07-18', '19:30:00', '16:30:00');
+INSERT INTO "segar_bugar_check_in"
+VALUES('BR8951', '2023-08-06', '14:00:00', '11:00:00');
+INSERT INTO "segar_bugar_check_in"
+VALUES('SV9700', '2023-10-22', '13:00:00', '15:00:00');
+INSERT INTO "segar_bugar_check_in"
+VALUES('GD6051', '2024-07-16', '14:00:00', '08:30:00');
+INSERT INTO "segar_bugar_check_in"
+VALUES('GD9054', '2020-11-14', '09:30:00', '12:00:00');
+INSERT INTO "segar_bugar_check_in"
+VALUES('SV6407', '2023-08-07', '06:45:00', '08:00:00');
+INSERT INTO "segar_bugar_check_in"
+VALUES('SV3065', '2025-10-07', '20:00:00', '20:15:00');
+INSERT INTO "segar_bugar_check_in"
+VALUES('BR1691', '2022-04-08', '14:15:00', '06:15:00');
+INSERT INTO "segar_bugar_check_in"
+VALUES('GD7585', '2023-07-22', '13:45:00', '12:00:00');
+INSERT INTO "segar_bugar_check_in"
+VALUES('GD3331', '2024-11-20', '21:45:00', '21:45:00');
+INSERT INTO "segar_bugar_check_in"
+VALUES('BR6342', '2021-11-27', '15:00:00', '19:30:00');
+INSERT INTO "segar_bugar_check_in"
+VALUES('GD6060', '2022-02-20', '09:00:00', '12:45:00');
+INSERT INTO "segar_bugar_check_in"
+VALUES('BR2140', '2023-03-06', '08:45:00', '13:15:00');
+INSERT INTO "segar_bugar_check_in"
+VALUES('SV8309', '2022-07-04', '17:15:00', '16:45:00');
+INSERT INTO "segar_bugar_check_in"
+VALUES('BR7935', '2023-11-25', '14:00:00', '14:30:00');
+INSERT INTO "segar_bugar_check_in"
+VALUES('SV7877', '2024-04-18', '13:00:00', '07:45:00');
+INSERT INTO "segar_bugar_check_in"
+VALUES('GD5557', '2025-08-08', '19:15:00', '11:15:00');
+INSERT INTO "segar_bugar_check_in"
+VALUES('SV8594', '2020-02-20', '13:30:00', '19:45:00');
+INSERT INTO "segar_bugar_check_in"
+VALUES('GD2745', '2023-12-06', '15:30:00', '06:30:00');
+INSERT INTO "segar_bugar_check_in"
+VALUES('SV4672', '2022-08-24', '08:15:00', '09:15:00');
+INSERT INTO "segar_bugar_check_in"
+VALUES('BR1339', '2020-07-16', '10:45:00', '07:00:00');
+INSERT INTO "segar_bugar_check_in"
+VALUES('BR5443', '2025-04-25', '09:00:00', '13:30:00');
+INSERT INTO "segar_bugar_check_in"
+VALUES('SV3300', '2024-04-17', '07:00:00', '08:00:00');
+INSERT INTO "segar_bugar_check_in"
+VALUES('BR5236', '2023-09-05', '12:00:00', '13:30:00');
+INSERT INTO "segar_bugar_check_in"
+VALUES('GD9420', '2024-11-11', '07:00:00', '10:00:00');
+INSERT INTO "segar_bugar_check_in"
+VALUES('GD7528', '2024-08-27', '20:45:00', '17:45:00');
+INSERT INTO "segar_bugar_check_in"
+VALUES('GD1425', '2020-07-16', '10:00:00', '13:15:00');
+INSERT INTO "segar_bugar_check_in"
+VALUES('GD1402', '2020-08-18', '11:15:00', '13:30:00');
+INSERT INTO "segar_bugar_check_in"
+VALUES('BR6368', '2021-05-28', '08:30:00', '14:30:00');
+INSERT INTO "segar_bugar_check_in"
+VALUES('SV1150', '2024-07-14', '06:00:00', '15:30:00');
+INSERT INTO "segar_bugar_check_in"
+VALUES('GD5753', '2025-02-19', '16:45:00', '09:30:00');
+INSERT INTO "segar_bugar_check_in"
+VALUES('BR2733', '2020-07-16', '18:00:00', '12:15:00');
+INSERT INTO "segar_bugar_check_in"
+VALUES('GD5922', '2023-11-26', '09:30:00', '12:00:00');
+INSERT INTO "segar_bugar_check_in"
+VALUES('GD6526', '2024-07-13', '18:30:00', '07:15:00');
+INSERT INTO "segar_bugar_check_in"
+VALUES('GD9742', '2025-08-27', '09:45:00', '09:00:00');
+INSERT INTO "segar_bugar_check_in"
+VALUES('BR4977', '2020-05-02', '09:00:00', '17:00:00');
+INSERT INTO "segar_bugar_check_in"
+VALUES('BR5174', '2022-05-07', '17:00:00', '18:30:00');
+INSERT INTO "segar_bugar_check_in"
+VALUES('GD9244', '2025-06-28', '08:45:00', '06:00:00');
+INSERT INTO "segar_bugar_check_in"
+VALUES('SV2958', '2024-12-12', '20:45:00', '19:15:00');
+INSERT INTO "segar_bugar_check_in"
+VALUES('BR4726', '2022-01-20', '07:30:00', '17:00:00');
+INSERT INTO "segar_bugar_check_in"
+VALUES('BR9452', '2022-07-13', '10:30:00', '08:30:00');
+INSERT INTO "segar_bugar_check_in"
+VALUES('BR8745', '2025-12-07', '16:00:00', '14:15:00');
+INSERT INTO "segar_bugar_check_in"
+VALUES('SV9675', '2023-08-27', '18:15:00', '08:00:00');
+INSERT INTO "segar_bugar_check_in"
+VALUES('BR8987', '2021-04-13', '16:45:00', '11:00:00');
+INSERT INTO "segar_bugar_check_in"
+VALUES('GD2576', '2021-08-11', '11:30:00', '18:45:00');
+INSERT INTO "segar_bugar_check_in"
+VALUES('SV4893', '2020-06-05', '07:30:00', '06:00:00');
+INSERT INTO "segar_bugar_check_in"
+VALUES('SV6980', '2024-11-04', '13:15:00', '14:15:00');
+INSERT INTO "segar_bugar_check_in"
+VALUES('BR9999', '2020-04-04', '07:15:00', '20:00:00');
+INSERT INTO "segar_bugar_check_in"
+VALUES('GD6867', '2020-07-16', '07:45:00', '10:30:00');
+INSERT INTO "segar_bugar_check_in"
+VALUES('GD1150', '2020-07-16', '11:30:00', '14:30:00');
+INSERT INTO "segar_bugar_check_in"
+VALUES('BR8215', '2024-10-19', '15:15:00', '18:15:00');
+INSERT INTO "segar_bugar_check_in"
+VALUES('BR8775', '2024-12-26', '11:15:00', '21:15:00');
+INSERT INTO "segar_bugar_check_in"
+VALUES('GD7889', '2021-05-26', '14:30:00', '21:45:00');
+INSERT INTO "segar_bugar_check_in"
+VALUES('BR1478', '2021-07-09', '17:30:00', '07:00:00');
+INSERT INTO "segar_bugar_check_in"
+VALUES('SV1777', '2020-10-06', '12:15:00', '21:00:00');
+INSERT INTO "segar_bugar_check_in"
+VALUES('SV9241', '2021-08-06', '19:15:00', '16:00:00');
+INSERT INTO "segar_bugar_check_in"
+VALUES('BR8206', '2023-07-12', '06:45:00', '16:30:00');
+INSERT INTO "segar_bugar_check_in"
+VALUES('SV4316', '2020-08-21', '16:15:00', '09:15:00');
+INSERT INTO "segar_bugar_check_in"
+VALUES('BR2749', '2023-01-12', '18:15:00', '07:00:00');
+INSERT INTO "segar_bugar_check_in"
+VALUES('BR1809', '2025-08-04', '11:45:00', '09:30:00');
+INSERT INTO "segar_bugar_check_in"
+VALUES('SV7709', '2021-01-07', '17:00:00', '18:15:00');
+INSERT INTO "segar_bugar_check_in"
+VALUES('GD6202', '2023-04-25', '21:30:00', '08:30:00');
+INSERT INTO "segar_bugar_check_in"
+VALUES('SV5383', '2020-11-19', '16:00:00', '10:15:00');
+INSERT INTO "segar_bugar_check_in"
+VALUES('SV8516', '2023-12-05', '14:30:00', '19:30:00');
+CREATE TABLE `segar_bugar_member`
+(
+  `id` varchar
+(50) NOT NULL DEFAULT '',
+  `nik` varchar
+(50) DEFAULT NULL,
+  `tgl_daftar` date DEFAULT NULL,
+  `status_member` varchar
+(50) DEFAULT NULL
+);
+INSERT INTO "segar_bugar_member"
+VALUES('BR1339', '327668319644', '2023-06-24', 'bronze');
+INSERT INTO "segar_bugar_member"
+VALUES('BR1345', '327640790629', '2021-11-20', 'bronze');
+INSERT INTO "segar_bugar_member"
+VALUES('BR1478', '327632703423', '2021-04-02', 'bronze');
+INSERT INTO "segar_bugar_member"
+VALUES('BR1691', '327656609890', '2023-01-07', 'bronze');
+INSERT INTO "segar_bugar_member"
+VALUES('BR1809', '327660245359', '2022-05-23', 'bronze');
+INSERT INTO "segar_bugar_member"
+VALUES('BR2064', '327654773695', '2023-07-28', 'bronze');
+INSERT INTO "segar_bugar_member"
+VALUES('BR2140', '327637827810', '2023-06-28', 'bronze');
+INSERT INTO "segar_bugar_member"
+VALUES('BR2663', '327684893696', '2020-02-05', 'bronze');
+INSERT INTO "segar_bugar_member"
+VALUES('BR2733', '327658925079', '2021-06-03', 'bronze');
+INSERT INTO "segar_bugar_member"
+VALUES('BR2749', '327648100507', '2025-12-15', 'bronze');
+INSERT INTO "segar_bugar_member"
+VALUES('BR4159', '327664129427', '2025-07-23', 'bronze');
+INSERT INTO "segar_bugar_member"
+VALUES('BR4338', '327662080766', '2022-01-22', 'bronze');
+INSERT INTO "segar_bugar_member"
+VALUES('BR4726', '327657443502', '2023-12-01', 'bronze');
+INSERT INTO "segar_bugar_member"
+VALUES('BR4879', '327693404581', '2025-07-13', 'bronze');
+INSERT INTO "segar_bugar_member"
+VALUES('BR4963', '327644014702', '2020-07-16', 'bronze');
+INSERT INTO "segar_bugar_member"
+VALUES('BR4977', '327656066724', '2020-11-24', 'bronze');
+INSERT INTO "segar_bugar_member"
+VALUES('BR5174', '327679166810', '2023-11-17', 'bronze');
+INSERT INTO "segar_bugar_member"
+VALUES('BR5236', '327617463879', '2020-07-25', 'bronze');
+INSERT INTO "segar_bugar_member"
+VALUES('BR5443', '327625629637', '2021-08-11', 'bronze');
+INSERT INTO "segar_bugar_member"
+VALUES('BR5668', '327697666153', '2020-11-17', 'bronze');
+INSERT INTO "segar_bugar_member"
+VALUES('BR5892', '327645186134', '2023-09-11', 'bronze');
+INSERT INTO "segar_bugar_member"
+VALUES('BR6342', '327657813820', '2025-09-10', 'bronze');
+INSERT INTO "segar_bugar_member"
+VALUES('BR6346', '327686811210', '2024-03-04', 'bronze');
+INSERT INTO "segar_bugar_member"
+VALUES('BR6368', '327611867186', '2024-12-28', 'bronze');
+INSERT INTO "segar_bugar_member"
+VALUES('BR6726', '327628171271', '2022-07-14', 'bronze');
+INSERT INTO "segar_bugar_member"
+VALUES('BR7935', '327690183594', '2023-07-16', 'bronze');
+INSERT INTO "segar_bugar_member"
+VALUES('BR8206', '327652271003', '2020-05-13', 'bronze');
+INSERT INTO "segar_bugar_member"
+VALUES('BR8215', '327697188352', '2020-03-22', 'bronze');
+INSERT INTO "segar_bugar_member"
+VALUES('BR8363', '327684182923', '2021-08-12', 'bronze');
+INSERT INTO "segar_bugar_member"
+VALUES('BR8745', '327695651036', '2021-01-23', 'bronze');
+INSERT INTO "segar_bugar_member"
+VALUES('BR8775', '327695734770', '2020-01-21', 'bronze');
+INSERT INTO "segar_bugar_member"
+VALUES('BR8951', '327652624924', '2021-11-03', 'bronze');
+INSERT INTO "segar_bugar_member"
+VALUES('BR8987', '327627697960', '2020-09-02', 'bronze');
+INSERT INTO "segar_bugar_member"
+VALUES('BR9452', '327690012664', '2023-06-06', 'bronze');
+INSERT INTO "segar_bugar_member"
+VALUES('BR9471', '327661562470', '2021-01-21', 'bronze');
+INSERT INTO "segar_bugar_member"
+VALUES('BR9702', '327669406617', '2020-05-02', 'bronze');
+INSERT INTO "segar_bugar_member"
+VALUES('BR9757', '327651357887', '2024-09-02', 'bronze');
+INSERT INTO "segar_bugar_member"
+VALUES('BR9999', '327686046138', '2025-07-02', 'bronze');
+INSERT INTO "segar_bugar_member"
+VALUES('GD1047', '327652513416', '2019-06-07', 'gold');
+INSERT INTO "segar_bugar_member"
+VALUES('GD1150', '327666856597', '2025-03-15', 'gold');
+INSERT INTO "segar_bugar_member"
+VALUES('GD1331', '327648608359', '2004-02-02', 'gold');
+INSERT INTO "segar_bugar_member"
+VALUES('GD1425', '327669649706', '2020-03-05', 'gold');
+INSERT INTO "segar_bugar_member"
+VALUES('GD1746', '327696681765', '2014-02-09', 'gold');
+INSERT INTO "segar_bugar_member"
+VALUES('GD1751', '327644304758', '2005-10-06', 'gold');
+INSERT INTO "segar_bugar_member"
+VALUES('GD2036', '327684442639', '2022-05-11', 'gold');
+INSERT INTO "segar_bugar_member"
+VALUES('GD2576', '327641959421', '2023-07-09', 'gold');
+INSERT INTO "segar_bugar_member"
+VALUES('GD2745', '327650932333', '2024-07-22', 'gold');
+INSERT INTO "segar_bugar_member"
+VALUES('GD3289', '327632263712', '2025-06-26', 'gold');
+INSERT INTO "segar_bugar_member"
+VALUES('GD3339', '327693240804', '2021-05-23', 'gold');
+INSERT INTO "segar_bugar_member"
+VALUES('GD3675', '327672142825', '2020-07-16', 'gold');
+INSERT INTO "segar_bugar_member"
+VALUES('GD3927', '327629536035', '2025-04-11', 'gold');
+INSERT INTO "segar_bugar_member"
+VALUES('GD3944', '327664315698', '2024-08-02', 'gold');
+INSERT INTO "segar_bugar_member"
+VALUES('GD5360', '327675567447', '2024-09-15', 'gold');
+INSERT INTO "segar_bugar_member"
+VALUES('GD5557', '327618318812', '2021-06-15', 'gold');
+INSERT INTO "segar_bugar_member"
+VALUES('GD5585', '327675013941', '2023-07-25', 'gold');
+INSERT INTO "segar_bugar_member"
+VALUES('GD5753', '327677423509', '2023-10-15', 'gold');
+INSERT INTO "segar_bugar_member"
+VALUES('GD5922', '327621485324', '2025-09-24', 'gold');
+INSERT INTO "segar_bugar_member"
+VALUES('GD6051', '327612076297', '2025-03-09', 'gold');
+INSERT INTO "segar_bugar_member"
+VALUES('GD6060', '327656903295', '2024-03-13', 'gold');
+INSERT INTO "segar_bugar_member"
+VALUES('GD6202', '327654163919', '2023-04-11', 'gold');
+INSERT INTO "segar_bugar_member"
+VALUES('GD6526', '327686764831', '2021-06-10', 'gold');
+INSERT INTO "segar_bugar_member"
+VALUES('GD6708', '327688893751', '2020-03-24', 'gold');
+INSERT INTO "segar_bugar_member"
+VALUES('GD6867', '327629266266', '2021-12-20', 'gold');
+INSERT INTO "segar_bugar_member"
+VALUES('GD7150', '327622864124', '2025-11-23', 'gold');
+INSERT INTO "segar_bugar_member"
+VALUES('GD7528', '327675732904', '2022-10-04', 'gold');
+INSERT INTO "segar_bugar_member"
+VALUES('GD7585', '327627750246', '2023-05-09', 'gold');
+INSERT INTO "segar_bugar_member"
+VALUES('GD7889', '327679689968', '2024-10-14', 'gold');
+INSERT INTO "segar_bugar_member"
+VALUES('GD7973', '327654370651', '2020-01-19', 'gold');
+INSERT INTO "segar_bugar_member"
+VALUES('GD8062', '327652945584', '2021-01-13', 'gold');
+INSERT INTO "segar_bugar_member"
+VALUES('GD8627', '327632247681', '2023-01-26', 'gold');
+INSERT INTO "segar_bugar_member"
+VALUES('GD8951', '327612019118', '2022-06-23', 'gold');
+INSERT INTO "segar_bugar_member"
+VALUES('GD9054', '327677322367', '2020-09-26', 'gold');
+INSERT INTO "segar_bugar_member"
+VALUES('GD9244', '327637295369', '2022-08-16', 'gold');
+INSERT INTO "segar_bugar_member"
+VALUES('GD9314', '327664615285', '2025-01-25', 'gold');
+INSERT INTO "segar_bugar_member"
+VALUES('GD9420', '327658867075', '2023-08-27', 'gold');
+INSERT INTO "segar_bugar_member"
+VALUES('GD9742', '327617382972', '2020-08-16', 'gold');
+INSERT INTO "segar_bugar_member"
+VALUES('SV1402', '327657734878', '2020-01-17', 'silver');
+INSERT INTO "segar_bugar_member"
+VALUES('SV1777', '327642537850', '2022-08-18', 'silver');
+INSERT INTO "segar_bugar_member"
+VALUES('SV2958', '327686692850', '2022-02-07', 'silver');
+INSERT INTO "segar_bugar_member"
+VALUES('SV3065', '327698525080', '2023-10-19', 'silver');
+INSERT INTO "segar_bugar_member"
+VALUES('SV3300', '327631095652', '2020-05-03', 'silver');
+INSERT INTO "segar_bugar_member"
+VALUES('SV4316', '327650033083', '2022-04-14', 'silver');
+INSERT INTO "segar_bugar_member"
+VALUES('SV4672', '327664836619', '2022-09-19', 'silver');
+INSERT INTO "segar_bugar_member"
+VALUES('SV4893', '327648606834', '2023-12-16', 'silver');
+INSERT INTO "segar_bugar_member"
+VALUES('SV5007', '327672583656', '2021-04-09', 'silver');
+INSERT INTO "segar_bugar_member"
+VALUES('SV5383', '327662210571', '2020-04-24', 'silver');
+INSERT INTO "segar_bugar_member"
+VALUES('SV5539', '327678146801', '2022-06-25', 'silver');
+INSERT INTO "segar_bugar_member"
+VALUES('SV6242', '327687345987', '2021-08-12', 'silver');
+INSERT INTO "segar_bugar_member"
+VALUES('SV6407', '327660682845', '2024-01-23', 'silver');
+INSERT INTO "segar_bugar_member"
+VALUES('SV6980', '327672698812', '2021-05-22', 'silver');
+INSERT INTO "segar_bugar_member"
+VALUES('SV7709', '327685245901', '2021-07-21', 'silver');
+INSERT INTO "segar_bugar_member"
+VALUES('SV7877', '327682812914', '2022-05-18', 'silver');
+INSERT INTO "segar_bugar_member"
+VALUES('SV7979', '327660070541', '2023-04-20', 'silver');
+INSERT INTO "segar_bugar_member"
+VALUES('SV8309', '327617132614', '2020-12-20', 'silver');
+INSERT INTO "segar_bugar_member"
+VALUES('SV8516', '327620253393', '2021-06-28', 'silver');
+INSERT INTO "segar_bugar_member"
+VALUES('SV8594', '327620743354', '2021-10-12', 'silver');
+INSERT INTO "segar_bugar_member"
+VALUES('SV9241', '327688003922', '2024-07-03', 'silver');
+INSERT INTO "segar_bugar_member"
+VALUES('SV9393', '327614134721', '2025-01-28', 'silver');
+INSERT INTO "segar_bugar_member"
+VALUES('SV9675', '327634351584', '2020-07-16', 'silver');
+INSERT INTO "segar_bugar_member"
+VALUES('SV9700', '327698322748', '2024-02-04', 'silver');
+CREATE TABLE `surat_izin_mengemudi`
+(
+  `id` int NOT NULL,
+  `usia` int DEFAULT NULL,
+  `tinggi_badan` int DEFAULT NULL,
+  `jenis_kelamin` varchar
+(50) DEFAULT NULL,
+  `no_plat` varchar
+(50) DEFAULT NULL,
+  `jenis_kendaraan` TEXT DEFAULT NULL,
+  `model_kendaraan` varchar
+(50) DEFAULT NULL
+);
+INSERT INTO "surat_izin_mengemudi"
+VALUES(1, 64, 165, 'Laki-laki', 'E4237Y', 'Roda Dua', 'Xenia');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(2, 58, 181, 'Perempuan', 'E7465X', 'Roda Empat', 'Beat');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(3, 61, 188, 'Perempuan', 'B5307Z', 'Roda Empat', 'Brio');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(4, 56, 167, 'Perempuan', 'E8455Z', 'Roda Empat', 'Brio');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(5, 62, 187, 'Laki-laki', 'B8976Z', 'Roda Empat', 'Xenia');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(6, 31, 183, 'Perempuan', 'B9848X', 'Roda Dua', 'Avanza');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(7, 27, 180, 'Perempuan', 'E3201Z', 'Roda Empat', 'Brio');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(8, 35, 159, 'Perempuan', 'B2523Y', 'Roda Empat', 'Brio');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(9, 62, 190, 'Laki-laki', 'E8968X', 'Roda Empat', 'Fortuner');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(10, 58, 185, 'Laki-laki', 'D4139X', 'Roda Empat', 'Beat');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(11, 54, 158, 'Laki-laki', 'B6855Z', 'Roda Dua', 'Beat');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(12, 50, 179, 'Laki-laki', 'B2573Y', 'Roda Dua', 'Avanza');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(13, 43, 158, 'Perempuan', 'D7652Z', 'Roda Empat', 'Xenia');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(14, 19, 171, 'Laki-laki', 'D1922Z', 'Roda Dua', 'Brio');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(15, 25, 175, 'Laki-laki', 'D7098X', 'Roda Dua', 'Brio');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(16, 56, 152, 'Perempuan', 'E4034X', 'Roda Empat', 'Brio');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(17, 36, 154, 'Perempuan', 'B8449Y', 'Roda Empat', 'Brio');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(18, 44, 180, 'Perempuan', 'E4387Y', 'Roda Empat', 'Brio');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(19, 33, 177, 'Perempuan', 'E9753Z', 'Roda Dua', 'Brio');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(20, 26, 167, 'Laki-laki', 'D5085Y', 'Roda Dua', 'Fortuner');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(21, 18, 176, 'Perempuan', 'D2043X', 'Roda Empat', 'Beat');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(22, 57, 171, 'Perempuan', 'D1903Z', 'Roda Dua', 'Brio');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(23, 35, 177, 'Perempuan', 'E6250Y', 'Roda Empat', 'Fortuner');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(24, 45, 151, 'Perempuan', 'E1473Z', 'Roda Dua', 'Avanza');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(25, 46, 186, 'Perempuan', 'B5118Y', 'Roda Dua', 'Xenia');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(26, 60, 178, 'Laki-laki', 'B9910Y', 'Roda Empat', 'Avanza');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(27, 40, 182, 'Perempuan', 'B6704Y', 'Roda Dua', 'Beat');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(28, 62, 180, 'Laki-laki', 'D2117Z', 'Roda Dua', 'Vario');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(29, 49, 162, 'Laki-laki', 'E3850Y', 'Roda Empat', 'Vario');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(30, 44, 161, 'Laki-laki', 'B9906X', 'Roda Empat', 'Avanza');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(31, 18, 177, 'Laki-laki', 'E9319Z', 'Roda Empat', 'Avanza');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(32, 43, 179, 'Laki-laki', 'B3777X', 'Roda Empat', 'Vario');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(33, 39, 167, 'Laki-laki', 'D7913X', 'Roda Empat', 'Avanza');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(34, 56, 164, 'Perempuan', 'B5660Y', 'Roda Dua', 'Xenia');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(35, 62, 172, 'Perempuan', 'E5609Y', 'Roda Dua', 'Avanza');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(36, 54, 172, 'Perempuan', 'D7802Y', 'Roda Dua', 'Fortuner');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(37, 30, 173, 'Perempuan', 'E4938X', 'Roda Dua', 'Vario');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(38, 33, 150, 'Laki-laki', 'D8518Y', 'Roda Empat', 'Brio');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(39, 63, 178, 'Perempuan', 'B3900Y', 'Roda Empat', 'Beat');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(40, 22, 184, 'Perempuan', 'E7231Y', 'Roda Empat', 'Brio');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(41, 38, 172, 'Perempuan', 'B9762Z', 'Roda Dua', 'Beat');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(42, 62, 168, 'Perempuan', 'D1341X', 'Roda Dua', 'Avanza');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(43, 28, 178, 'Perempuan', 'E6517Y', 'Roda Empat', 'Avanza');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(44, 54, 159, 'Perempuan', 'E3951Z', 'Roda Dua', 'Vario');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(45, 39, 177, 'Perempuan', 'E4931X', 'Roda Dua', 'Xenia');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(46, 58, 180, 'Laki-laki', 'B5290Y', 'Roda Dua', 'Fortuner');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(47, 48, 187, 'Perempuan', 'D8666X', 'Roda Dua', 'Beat');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(48, 47, 169, 'Laki-laki', 'B4982X', 'Roda Dua', 'Beat');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(49, 56, 177, 'Perempuan', 'E5286Y', 'Roda Empat', 'Xenia');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(50, 54, 151, 'Laki-laki', 'E9163Z', 'Roda Dua', 'Brio');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(51, 39, 170, 'Perempuan', 'B8214Z', 'Roda Dua', 'Vario');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(52, 42, 183, 'Laki-laki', 'E9312Z', 'Roda Dua', 'Vario');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(53, 59, 181, 'Perempuan', 'E5562Z', 'Roda Dua', 'Fortuner');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(54, 19, 180, 'Perempuan', 'B4294Z', 'Roda Dua', 'Fortuner');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(55, 58, 176, 'Laki-laki', 'D7323X', 'Roda Empat', 'Avanza');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(56, 49, 165, 'Perempuan', 'B6096X', 'Roda Empat', 'Vario');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(57, 54, 176, 'Perempuan', 'D1892Y', 'Roda Dua', 'Brio');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(58, 22, 165, 'Laki-laki', 'E5937Y', 'Roda Dua', 'Beat');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(59, 65, 159, 'Laki-laki', 'E2118Y', 'Roda Dua', 'Fortuner');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(60, 54, 167, 'Laki-laki', 'E5803X', 'Roda Dua', 'Vario');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(61, 63, 170, 'Perempuan', 'B2493X', 'Roda Dua', 'Brio');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(62, 34, 165, 'Laki-laki', 'D7346Z', 'Roda Dua', 'Vario');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(63, 36, 164, 'Laki-laki', 'B9924X', 'Roda Dua', 'Vario');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(64, 34, 150, 'Laki-laki', 'E6146Z', 'Roda Dua', 'Fortuner');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(65, 60, 169, 'Laki-laki', 'E7326Y', 'Roda Dua', 'Xenia');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(66, 57, 162, 'Laki-laki', 'B9964X', 'Roda Empat', 'Xenia');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(67, 42, 167, 'Laki-laki', 'D7315Z', 'Roda Empat', 'Beat');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(68, 25, 155, 'Laki-laki', 'B3147Y', 'Roda Dua', 'Brio');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(69, 38, 182, 'Perempuan', 'D9333X', 'Roda Dua', 'Brio');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(70, 47, 178, 'Perempuan', 'D5882Z', 'Roda Dua', 'Fortuner');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(71, 30, 180, 'Perempuan', 'B4048Z', 'Roda Dua', 'Fortuner');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(72, 63, 182, 'Perempuan', 'D4722Y', 'Roda Empat', 'Avanza');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(73, 18, 154, 'Perempuan', 'D3485Z', 'Roda Dua', 'Fortuner');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(74, 60, 164, 'Perempuan', 'E4276X', 'Roda Dua', 'Fortuner');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(75, 40, 169, 'Perempuan', 'B2288X', 'Roda Dua', 'Fortuner');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(76, 58, 157, 'Perempuan', 'D5308Y', 'Roda Empat', 'Vario');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(77, 36, 167, 'Perempuan', 'B9930X', 'Roda Dua', 'Mio');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(78, 29, 152, 'Laki-laki', 'E2503X', 'Roda Dua', 'Avanza');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(79, 18, 189, 'Laki-laki', 'E1259X', 'Roda Dua', 'Fortuner');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(80, 20, 163, 'Perempuan', 'D1964X', 'Roda Empat', 'Xenia');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(81, 23, 158, 'Perempuan', 'D6047Z', 'Roda Dua', 'Beat');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(82, 37, 182, 'Perempuan', 'B5258Z', 'Roda Empat', 'Vario');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(83, 23, 166, 'Perempuan', 'D5853X', 'Roda Empat', 'Avanza');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(84, 57, 186, 'Laki-laki', 'E3705Z', 'Roda Empat', 'Vario');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(85, 38, 165, 'Perempuan', 'D2443Z', 'Roda Dua', 'Brio');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(86, 56, 186, 'Laki-laki', 'D7780X', 'Roda Dua', 'Vario');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(87, 24, 174, 'Laki-laki', 'B2917X', 'Roda Dua', 'Fortuner');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(88, 62, 171, 'Perempuan', 'E5526Y', 'Roda Dua', 'Beat');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(89, 40, 174, 'Laki-laki', 'B5545Z', 'Roda Dua', 'Vario');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(90, 59, 189, 'Perempuan', 'D1231Y', 'Roda Empat', 'Xenia');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(91, 53, 184, 'Perempuan', 'D2309X', 'Roda Dua', 'Vario');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(92, 42, 183, 'Perempuan', 'E1191Y', 'Roda Empat', 'Vario');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(93, 50, 183, 'Laki-laki', 'D5891Z', 'Roda Empat', 'Beat');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(94, 25, 155, 'Laki-laki', 'E4729Z', 'Roda Empat', 'Beat');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(95, 17, 177, 'Perempuan', 'D2456Y', 'Roda Dua', 'Brio');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(96, 32, 190, 'Perempuan', 'E9206X', 'Roda Dua', 'Vario');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(97, 47, 175, 'Laki-laki', 'D2819X', 'Roda Empat', 'Vario');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(98, 52, 189, 'Perempuan', 'D4727X', 'Roda Dua', 'Brio');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(99, 48, 185, 'Laki-laki', 'D7323Y', 'Roda Dua', 'Xenia');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(100, 23, 178, 'Laki-laki', 'E8460Y', 'Roda Dua', 'Vario');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(1000, 25, 181, 'Laki-laki', 'B9997Z', 'Roda Empat', 'Avanza');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(1001, 38, 170, 'Laki-laki', 'B9967Y', 'Roda Dua', 'Fortuner');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(1002, 36, 165, 'Laki-laki', 'B9969Z', 'Roda Dua', 'Xenia');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(1003, 50, 156, 'Perempuan', 'B9915X', 'Roda Dua', 'Xenia');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(1004, 32, 165, 'Laki-laki', 'B9932Y', 'Roda Empat', 'Brio');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(1005, 20, 179, 'Laki-laki', 'B9929X', 'Roda Dua', 'Avanza');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(1006, 35, 171, 'Laki-laki', 'B9999Z', 'Roda Empat', 'Vario');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(1007, 40, 159, 'Perempuan', 'B9938X', 'Roda Empat', 'Brio');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(1008, 65, 165, 'Perempuan', 'B9925X', 'Roda Dua', 'Beat');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(1009, 23, 187, 'Perempuan', 'B9961Y', 'Roda Dua', 'Mio');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(1010, 23, 159, 'Laki-laki', 'B9950Z', 'Roda Empat', 'Avanza');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(1011, 60, 161, 'Laki-laki', 'B9945Z', 'Roda Dua', 'Vario');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(1012, 36, 188, 'Laki-laki', 'B9975Z', 'Roda Dua', 'Beat');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(1013, 32, 178, 'Perempuan', 'B9951Y', 'Roda Dua', 'Fortuner');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(1014, 52, 150, 'Laki-laki', 'B9948X', 'Roda Empat', 'Brio');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(1015, 49, 168, 'Laki-laki', 'B9930Y', 'Roda Empat', 'Xenia');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(1016, 34, 177, 'Laki-laki', 'B9960Z', 'Roda Empat', 'Xenia');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(1017, 25, 188, 'Perempuan', 'B9947Z', 'Roda Dua', 'Avanza');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(1018, 63, 187, 'Perempuan', 'B9932X', 'Roda Empat', 'Beat');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(1019, 42, 188, 'Laki-laki', 'B9943Y', 'Roda Empat', 'Vario');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(1020, 41, 176, 'Perempuan', 'B2669X', 'Roda Empat', 'Brio');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(1021, 35, 166, 'Laki-laki', 'E4830Y', 'Roda Empat', 'Vario');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(1022, 45, 150, 'Laki-laki', 'D6086Z', 'Roda Empat', 'Fortuner');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(1023, 52, 188, 'Laki-laki', 'D4748Y', 'Roda Empat', 'Avanza');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(1024, 21, 159, 'Perempuan', 'B3232Y', 'Roda Empat', 'Xenia');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(1025, 32, 158, 'Laki-laki', 'E8398X', 'Roda Empat', 'Mio');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(1026, 60, 186, 'Laki-laki', 'B7090X', 'Roda Dua', 'Brio');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(1027, 45, 189, 'Laki-laki', 'E3714Z', 'Roda Dua', 'Vario');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(1028, 55, 179, 'Laki-laki', 'B6203X', 'Roda Empat', 'Brio');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(1029, 40, 154, 'Perempuan', 'B4371Y', 'Roda Empat', 'Beat');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(1030, 48, 181, 'Laki-laki', 'E8711Y', 'Roda Empat', 'Fortuner');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(1031, 54, 151, 'Perempuan', 'B7945X', 'Roda Dua', 'Fortuner');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(1032, 58, 183, 'Perempuan', 'D9685X', 'Roda Empat', 'Vario');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(1033, 51, 166, 'Laki-laki', 'D6880X', 'Roda Dua', 'Xenia');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(1034, 37, 177, 'Laki-laki', 'D8040Y', 'Roda Empat', 'Fortuner');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(1035, 44, 155, 'Perempuan', 'D5808Z', 'Roda Empat', 'Mio');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(1036, 44, 162, 'Perempuan', 'B4899Z', 'Roda Empat', 'Avanza');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(1037, 56, 160, 'Laki-laki', 'D4913Z', 'Roda Dua', 'Xenia');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(1038, 41, 172, 'Laki-laki', 'D4424Z', 'Roda Empat', 'Brio');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(1039, 50, 151, 'Perempuan', 'B8580Y', 'Roda Empat', 'Vario');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(1040, 65, 154, 'Perempuan', 'E4716Y', 'Roda Dua', 'Avanza');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(1041, 31, 179, 'Laki-laki', 'B7940Z', 'Roda Dua', 'Xenia');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(1042, 65, 164, 'Perempuan', 'E4831X', 'Roda Dua', 'Brio');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(1043, 56, 176, 'Perempuan', 'D5944Y', 'Roda Empat', 'Fortuner');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(1044, 46, 151, 'Laki-laki', 'D5144Z', 'Roda Empat', 'Beat');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(1045, 29, 165, 'Perempuan', 'B5305X', 'Roda Dua', 'Fortuner');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(1046, 48, 152, 'Laki-laki', 'D1539Z', 'Roda Empat', 'Mio');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(1047, 19, 155, 'Perempuan', 'D2507Z', 'Roda Empat', 'Fortuner');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(1048, 36, 169, 'Laki-laki', 'E3800X', 'Roda Dua', 'Mio');
+INSERT INTO "surat_izin_mengemudi"
+VALUES(1049, 59, 183, 'Perempuan', 'D5239Y', 'Roda Dua', 'Xenia');
+
+CREATE TABLE `laporan_kriminal`
+(
+  `tanggal` date DEFAULT NULL,
+  `jenis` varchar
+(100) DEFAULT NULL,
+  `keterangan` text DEFAULT NULL,
+  `tempat` varchar
+(100) DEFAULT NULL
+);
+INSERT INTO `laporan_kriminal`
+(`tanggal`,`jenis`, `keterangan`, `tempat`) VALUES
+('2021-04-02', 'Perampokan', '2 pelaku bersenjata merampas tas dan perhiasan korban', 'Kompleks Mawar'),
+('2021-06-03', 'Penipuan', 'Korban tertipu investasi fiktif sebesar Rp50 juta', 'Jl. Kenanga'),
+('2025-08-28', 'Perampokan', 'Perampokan toko emas oleh 4 orang bermotor', 'Kompleks Mawar'),
+('2021-07-01', 'Perampokan', 'Pelaku mengancam dengan pisau, mengambil uang kasir', 'Jl. Kenanga'),
+('2025-07-03', 'Pencurian', 'Handphone dan dompet dicuri dari tas korban', 'Kompleks Anggrek'),
+('2024-03-03', 'Pembunuhan', 'Korban ditemukan tewas dengan luka tusuk', 'Kompleks Anggrek'),
+('2020-05-10', 'Penipuan', 'Penipuan online via marketplace, kerugian Rp12 juta', 'Kompleks Anggrek'),
+('2021-09-13', 'Pembunuhan', 'Pembunuhan akibat perselisihan tetangga', 'Jl. Flamboyan'),
+('2020-07-17', 'Penganiayaan', 'Korban dipukuli hingga pingsan oleh 3 pelaku', 'Kompleks Anggrek'),
+('2023-10-02', 'Pencurian', 'Sepeda motor dicuri dari parkiran rumah', 'Jl. Kenanga'),
+('2022-05-02', 'Pencurian', 'Pelaku menyamar sebagai teknisi, mencuri laptop', 'Jl. Merpati'),
+('2022-11-10', 'Pencurian', 'Pencurian oleh anak di bawah umur, barang dikembalikan', 'Kompleks Mawar'),
+('2024-03-04', 'Perampokan', 'Perampokan minimarket oleh 2 orang bersenjata api', 'Jl. Merpati'),
+('2020-09-21', 'Perampokan', 'Korban dirampok saat menarik uang di ATM', 'Jl. Merpati'),
+('2025-03-11', 'Pencurian', 'Pencurian kendaraan bermotor oleh geng motor', 'Jl. Flamboyan'),
+('2020-02-25', 'Pencurian', 'Barang elektronik dicuri saat rumah kosong', 'Jl. Flamboyan'),
+('2025-04-08', 'Perampokan', 'Perampokan rumah oleh kelompok bersenjata', 'Kompleks Mawar'),
+('2024-11-16', 'Perampokan', 'Karyawan toko dirampok saat tutup toko', 'Kompleks Melati'),
+('2023-01-24', 'Penganiayaan', 'Pemukulan akibat perselisihan lalu lintas', 'Kompleks Melati'),
+('2023-06-25', 'Perampokan', 'Perampokan dengan modus titip paket', 'Kompleks Anggrek'),
+('2021-10-28', 'Penganiayaan', 'Korban dipukuli karena masalah utang piutang', 'Kompleks Anggrek'),
+('2023-01-10', 'Penganiayaan', 'Penganiayaan oleh preman parkir', 'Jl. Kenanga'),
+('2021-11-03', 'Penipuan', 'Penipuan undian berhadiah, korban guru sekolah', 'Kompleks Melati'),
+('2021-10-13', 'Penipuan', 'Penipuan pinjaman online dengan bunga tinggi', 'Kompleks Mawar'),
+('2020-09-09', 'Penganiayaan', 'Tawuran antar warga, 2 korban luka berat', 'Jl. Kenanga'),
+('2020-07-17', 'Pembunuhan', 'Rekaman CCTV menunjukan 2 orang saksi mata: Seorang pria yang tinggal di rumah paling ujung di Kompleks Anggrek, dan seorang Perempuan bernama Rina Sari yang tinggal di Jl. Flamboyan', 'Kompleks Anggrek'),
+('2023-01-26', 'Penipuan', 'Penipuan jual beli mobil bekas', 'Jl. Flamboyan'),
+('2022-10-07', 'Penipuan', 'Penipuan lowongan pekerjaan palsu', 'Jl. Flamboyan'),
+('2020-11-14', 'Pencurian', 'Pencurian oleh ART selama majikan pergi, pelaku mengambil sejumlah perhiasan emas serta uang senilai puluhan juta rupiah', 'Jl. Flamboyan'),
+('2024-03-02', 'Pembunuhan', 'Pembunuhan berencana oleh mantan pasangan', 'Jl. Merpati'),
+('2020-07-17', 'Pembunuhan', 'Pembunuhan akibat persaingan bisnis, korban ditemukan penuh dengan luka bakar', 'Jl. Flamboyan'),
+('2020-12-18', 'Penganiayaan', 'Penganiayaan oleh mantan suami', 'Kompleks Mawar'),
+('2023-01-20', 'Perampokan', 'Perampokan ojek online dengan modus titipan', 'Jl. Flamboyan'),
+('2021-11-12', 'Penipuan', 'Penipuan pengadaan barang pemerintah', 'Jl. Merpati'),
+('2024-08-13', 'Pencurian', 'Pencurian oleh residivis narkoba', 'Jl. Merpati'),
+('2020-08-17', 'Pencurian', 'Pencurian kabel listrik oleh geng spesialis', 'Kompleks Melati'),
+('2025-04-04', 'Pembunuhan', 'Pembunuhan disertai mutilasi', 'Jl. Merpati'),
+('2022-12-01', 'Perampokan', 'Perampokan konvoi oleh 10 pelaku bermotor', 'Kompleks Mawar'),
+('2021-09-27', 'Pembunuhan', 'Pembunuhan anak oleh orang tua kandung', 'Kompleks Melati'),
+('2024-11-16', 'Perampokan', 'Karyawan toko dirampok saat tutup toko', 'Kompleks Melati'),
+('2021-06-10', 'Perampokan', 'Perampokan toko kelontong oleh remaja', 'Kompleks Anggrek'),
+('2020-10-08', 'Pembunuhan', 'Pembunuhan akibat perselingkuhan', 'Kompleks Anggrek'),
+('2024-11-23', 'Pencurian', 'Pencurian dengan modus pecah kaca mobil', 'Jl. Flamboyan'),
+('2024-10-17', 'Pembunuhan', 'Pembunuhan oleh tetangga akibat dendam', 'Jl. Kenanga'),
+('2025-10-26', 'Penganiayaan', 'Penganiayaan mahasiswa oleh senior kampus', 'Jl. Flamboyan'),
+('2023-11-20', 'Pencurian', 'Pencurian oleh sindikat pencuri spesialis ruko', 'Jl. Flamboyan'),
+('2023-04-21', 'Perampokan', 'Perampokan dengan modus taksi palsu', 'Kompleks Anggrek'),
+('2023-09-17', 'Penganiayaan', 'Penganiayaan oleh massa akibat kesalahpahaman', 'Kompleks Anggrek'),
+('2023-11-21', 'Perampokan', 'Perampokan dengan modus pengantaran makanan', 'Jl. Flamboyan'),
+('2020-02-19', 'Pembunuhan', 'Pembunuhan oleh pacar akibat cemburu', 'Kompleks Melati');
+
+
+
+CREATE TABLE `warga`
+(
+  `nik` varchar
+(50) NOT NULL DEFAULT '',
+  `nama` varchar
+(50) NOT NULL DEFAULT '',
+  `id_sim` int NOT NULL DEFAULT '0',
+  `alamat` text NOT NULL,
+  `no_rumah` int NOT NULL DEFAULT '0'
+);
+INSERT INTO "warga"
+VALUES('151429997253', 'Cinthia Haryanti, S.IP', 1016, 'Gg. Cihampelas', 111);
+INSERT INTO "warga"
+VALUES('188785543725', 'Rahayu Halimah', 1022, 'Jl. Tebet Barat Dalam', 109);
+INSERT INTO "warga"
+VALUES('198102655026', 'Maimunah Simanjuntak', 1047, 'Jalan Waringin', 34);
+INSERT INTO "warga"
+VALUES('213994182426', 'Irma Wahyuni', 1010, 'Jalan Sukabumi', 173);
+INSERT INTO "warga"
+VALUES('260953739662', 'Tgk. Mulyono Pangestu, S.Psi', 1040, 'Jalan Peta', 50);
+INSERT INTO "warga"
+VALUES('266460813775', 'Harsana Prasetya', 1018, 'Jalan KH Amin Jasuta', 34);
+INSERT INTO "warga"
+VALUES('272180897692', 'Eluh Maulana', 1012, 'Jalan Moch. Ramdan', 198);
+INSERT INTO "warga"
+VALUES('288451811420', 'Ellis Usada', 1042, 'Gg. K.H. Wahid Hasyim', 108);
+INSERT INTO "warga"
+VALUES('303497660081', 'Najwa Kuswandari', 1008, 'Gang S. Parman', 29);
+INSERT INTO "warga"
+VALUES('318946596045', 'Humaira Siregar', 1031, 'Gang Gegerkalong Hilir', 69);
+INSERT INTO "warga"
+VALUES('322019781727', 'Prabowo Rajasa', 1028, 'Gang M.H Thamrin', 66);
+INSERT INTO "warga"
+VALUES('327611867186', 'Budi Wijaya', 65, 'Kompleks Melati', 8);
+INSERT INTO "warga"
+VALUES('327612019118', 'Ani Wijaya', 16, 'Jl. Kenanga', 105);
+INSERT INTO "warga"
+VALUES('327612076297', 'Dewi Nugroho', 40, 'Jl. Merpati', 195);
+INSERT INTO "warga"
+VALUES('327614134721', 'Hendra Wulandari', 4, 'Jl. Merpati', 45);
+INSERT INTO "warga"
+VALUES('327617132614', 'Lina Pratama', 50, 'Kompleks Anggrek', 7);
+INSERT INTO "warga"
+VALUES('327617382972', 'Budi Wijaya', 71, 'Kompleks Melati', 9);
+INSERT INTO "warga"
+VALUES('327617463879', 'Lina Wijaya', 60, 'Jl. Flamboyan', 62);
+INSERT INTO "warga"
+VALUES('327618318812', 'Wawan Sari', 53, 'Jl. Merpati', 52);
+INSERT INTO "warga"
+VALUES('327620253393', 'Joko Santoso', 100, 'Kompleks Melati', 15);
+INSERT INTO "warga"
+VALUES('327620743354', 'Tini Siregar', 54, 'Jl. Merpati', 171);
+INSERT INTO "warga"
+VALUES('327621485324', 'Wawan Santoso', 69, 'Kompleks Anggrek', 8);
+INSERT INTO "warga"
+VALUES('327622864124', 'Agus Saputra', 86, 'Jl. Merpati', 110);
+INSERT INTO "warga"
+VALUES('327625629637', 'Agus Putri', 58, 'Kompleks Melati', 7);
+INSERT INTO "warga"
+VALUES('327627697960', 'Dewi Saputra', 80, 'Jl. Flamboyan', 27);
+INSERT INTO "warga"
+VALUES('327627750246', 'Lina Santoso', 45, 'Kompleks Anggrek', 6);
+INSERT INTO "warga"
+VALUES('327628171271', 'Lina Santoso', 28, 'Jl. Merpati', 159);
+INSERT INTO "warga"
+VALUES('327629266266', 'Joko Santoso', 85, 'Kompleks Anggrek', 13);
+INSERT INTO "warga"
+VALUES('327629536035', 'Wawan Sari', 3, 'Jl. Kenanga', 46);
+INSERT INTO "warga"
+VALUES('327631095652', 'Tini Putri', 59, 'Kompleks Mawar', 11);
+INSERT INTO "warga"
+VALUES('327632247681', 'Budi Nugroho', 9, 'Kompleks Melati', 1);
+INSERT INTO "warga"
+VALUES('327632263712', 'Lina Putri', 37, 'Jl. Merpati', 160);
+INSERT INTO "warga"
+VALUES('327632703423', 'Lina Siregar', 90, 'Jl. Flamboyan', 93);
+INSERT INTO "warga"
+VALUES('327634351584', 'Budi Nugroho', 79, 'Kompleks Melati', 11);
+INSERT INTO "warga"
+VALUES('327637295369', 'Wawan Pratama', 74, 'Kompleks Anggrek', 10);
+INSERT INTO "warga"
+VALUES('327637827810', 'Tini Siregar', 49, 'Kompleks Melati', 6);
+INSERT INTO "warga"
+VALUES('327640790629', 'Lina Saputra', 35, 'Jl. Merpati', 23);
+INSERT INTO "warga"
+VALUES('327641959421', 'Agus Saputra', 81, 'Jl. Kenanga', 137);
+INSERT INTO "warga"
+VALUES('327642537850', 'Dewi Saputra', 91, 'Jl. Kenanga', 165);
+INSERT INTO "warga"
+VALUES('327644014702', 'Budi Kurniawan', 22, 'Jl. Kenanga', 21);
+INSERT INTO "warga"
+VALUES('327644304758', 'Rina Nugroho', 20, 'Kompleks Anggrek', 3);
+INSERT INTO "warga"
+VALUES('327645186134', 'Agus Sari', 10, 'Kompleks Melati', 2);
+INSERT INTO "warga"
+VALUES('327648100507', 'Budi Nugroho', 95, 'Jl. Kenanga', 69);
+INSERT INTO "warga"
+VALUES('327648606834', 'Dewi Pratama', 82, 'Kompleks Melati', 12);
+INSERT INTO "warga"
+VALUES('327648608359', 'Rina Siregar', 46, 'Jl. Flamboyan', 18);
+INSERT INTO "warga"
+VALUES('327650033083', 'Hendra Santoso', 94, 'Jl. Kenanga', 44);
+INSERT INTO "warga"
+VALUES('327650932333', 'Lina Siregar', 55, 'Kompleks Mawar', 10);
+INSERT INTO "warga"
+VALUES('327651357887', 'Dewi Wulandari', 11, 'Kompleks Anggrek', 2);
+INSERT INTO "warga"
+VALUES('327652271003', 'Joko Sari', 93, 'Kompleks Anggrek', 14);
+INSERT INTO "warga"
+VALUES('327652513416', 'Hendra Sari', 7, 'Kompleks Anggrek', 1);
+INSERT INTO "warga"
+VALUES('327652624924', 'Hendra Wulandari', 38, 'Kompleks Melati', 5);
+INSERT INTO "warga"
+VALUES('327652945584', 'Rina Pratama', 6, 'Jl. Kenanga', 56);
+INSERT INTO "warga"
+VALUES('327654163919', 'Wawan Wulandari', 98, 'Jl. Merpati', 140);
+INSERT INTO "warga"
+VALUES('327654370651', 'Ani Saputra', 15, 'Kompleks Mawar', 2);
+INSERT INTO "warga"
+VALUES('327654773695', 'Wawan Nugroho', 14, 'Jl. Flamboyan', 184);
+INSERT INTO "warga"
+VALUES('327656066724', 'Joko Wijaya', 72, 'Kompleks Anggrek', 9);
+INSERT INTO "warga"
+VALUES('327656609890', 'Lina Putri', 44, 'Kompleks Mawar', 8);
+INSERT INTO "warga"
+VALUES('327656903295', 'Joko Wulandari', 48, 'Jl. Merpati', 187);
+INSERT INTO "warga"
+VALUES('327657443502', 'Tini Wijaya', 76, 'Kompleks Anggrek', 12);
+INSERT INTO "warga"
+VALUES('327657734878', 'Rina Santoso', 64, 'Kompleks Mawar', 13);
+INSERT INTO "warga"
+VALUES('327657813820', 'Rina Wijaya', 47, 'Jl. Flamboyan', 184);
+INSERT INTO "warga"
+VALUES('327658867075', 'Lina Santoso', 61, 'Kompleks Mawar', 12);
+INSERT INTO "warga"
+VALUES('327658925079', 'Budi Siregar', 68, 'Jl. Flamboyan', 139);
+INSERT INTO "warga"
+VALUES('327660070541', 'Rina Siregar', 1, 'Jl. Kenanga', 104);
+INSERT INTO "warga"
+VALUES('327660245359', 'Budi Santoso', 96, 'Jl. Kenanga', 26);
+INSERT INTO "warga"
+VALUES('327660682845', 'Budi Wulandari', 42, 'Jl. Flamboyan', 196);
+INSERT INTO "warga"
+VALUES('327661562470', 'Dewi Putri', 31, 'Kompleks Mawar', 4);
+INSERT INTO "warga"
+VALUES('327662080766', 'Ani Wulandari', 13, 'Jl. Kenanga', 58);
+INSERT INTO "warga"
+VALUES('327662210571', 'Tini Santoso', 99, 'Jl. Kenanga', 65);
+INSERT INTO "warga"
+VALUES('327664129427', 'Dewi Kurniawan', 21, 'Kompleks Melati', 3);
+INSERT INTO "warga"
+VALUES('327664315698', 'Budi Wijaya', 12, 'Jl. Kenanga', 181);
+INSERT INTO "warga"
+VALUES('327664615285', 'Hendra Nugroho', 26, 'Kompleks Anggrek', 4);
+INSERT INTO "warga"
+VALUES('327664836619', 'Agus Wijaya', 56, 'Jl. Kenanga', 180);
+INSERT INTO "warga"
+VALUES('327666856597', 'Arman Arsya', 66, 'Jl. Kenanga', 26);
+INSERT INTO "warga"
+VALUES('327668319644', 'Rina Sari', 8, 'Jl. Flamboyan', 19);
+INSERT INTO "warga"
+VALUES('327669406617', 'Budi Siregar', 29, 'Kompleks Anggrek', 5);
+INSERT INTO "warga"
+VALUES('327669649706', 'Wawan Santoso', 63, 'Jl. Flamboyan', 157);
+INSERT INTO "warga"
+VALUES('327672142825', 'Lina Kurniawan', 25, 'Jl. Flamboyan', 4);
+INSERT INTO "warga"
+VALUES('327672583656', 'Tini Santoso', 2, 'Kompleks Mawar', 1);
+INSERT INTO "warga"
+VALUES('327672698812', 'Ani Nugroho', 83, 'Kompleks Mawar', 16);
+INSERT INTO "warga"
+VALUES('327675013941', 'Ani Wulandari', 36, 'Jl. Kenanga', 12);
+INSERT INTO "warga"
+VALUES('327675567447', 'Hendra Pratama', 30, 'Jl. Merpati', 61);
+INSERT INTO "warga"
+VALUES('327675732904', 'Budi Santoso', 62, 'Jl. Flamboyan', 129);
+INSERT INTO "warga"
+VALUES('327677322367', 'Dewi Pratama', 41, 'Jl. Flamboyan', 12);
+INSERT INTO "warga"
+VALUES('327677423509', 'Lina Kurniawan', 67, 'Jl. Kenanga', 18);
+INSERT INTO "warga"
+VALUES('327678146801', 'Rina Sari', 33, 'Kompleks Melati', 4);
+INSERT INTO "warga"
+VALUES('327679166810', 'Rina Kurniawan', 73, 'Kompleks Mawar', 14);
+INSERT INTO "warga"
+VALUES('327679689968', 'Wawan Pratama', 89, 'Kompleks Mawar', 17);
+INSERT INTO "warga"
+VALUES('327682812914', 'Rina Wulandari', 52, 'Kompleks Mawar', 9);
+INSERT INTO "warga"
+VALUES('327684182923', 'Hendra Nugroho', 32, 'Jl. Kenanga', 71);
+INSERT INTO "warga"
+VALUES('327684442639', 'Wawan Wulandari', 27, 'Jl. Merpati', 130);
+INSERT INTO "warga"
+VALUES('327684893696', 'Joko Wulandari', 17, 'Jl. Flamboyan', 54);
+INSERT INTO "warga"
+VALUES('327685245901', 'Tini Pratama', 97, 'Jl. Merpati', 59);
+INSERT INTO "warga"
+VALUES('327686046138', 'Budi Santoso', 84, 'Jl. Merpati', 27);
+INSERT INTO "warga"
+VALUES('327686692850', 'Lina Siregar', 75, 'Kompleks Anggrek', 11);
+INSERT INTO "warga"
+VALUES('327686764831', 'Lina Kurniawan', 70, 'Jl. Merpati', 27);
+INSERT INTO "warga"
+VALUES('327686811210', 'Agus Wijaya', 24, 'Kompleks Mawar', 3);
+INSERT INTO "warga"
+VALUES('327687345987', 'Hendra Siregar', 34, 'Kompleks Mawar', 5);
+INSERT INTO "warga"
+VALUES('327688003922', 'Agus Wijaya', 92, 'Kompleks Melati', 14);
+INSERT INTO "warga"
+VALUES('327688893751', 'Rina Wulandari', 23, 'Jl. Kenanga', 72);
+INSERT INTO "warga"
+VALUES('327690012664', 'Budi Saputra', 77, 'Kompleks Melati', 10);
+INSERT INTO "warga"
+VALUES('327690183594', 'Hendra Putri', 51, 'Jl. Merpati', 43);
+INSERT INTO "warga"
+VALUES('327693240804', 'Wawan Siregar', 57, 'Jl. Merpati', 150);
+INSERT INTO "warga"
+VALUES('327693404581', 'Dewi Kurniawan', 18, 'Jl. Merpati', 103);
+INSERT INTO "warga"
+VALUES('327695651036', 'Joko Wijaya', 78, 'Kompleks Mawar', 15);
+INSERT INTO "warga"
+VALUES('327695734770', 'Ani Pratama', 88, 'Kompleks Melati', 13);
+INSERT INTO "warga"
+VALUES('327696681765', 'Hendra Pratama', 5, 'Jl. Merpati', 125);
+INSERT INTO "warga"
+VALUES('327697188352', 'Lina Saputra', 87, 'Jl. Flamboyan', 12);
+INSERT INTO "warga"
+VALUES('327697666153', 'Tini Putri', 19, 'Jl. Kenanga', 111);
+INSERT INTO "warga"
+VALUES('327698322748', 'Wawan Kurniawan', 39, 'Kompleks Mawar', 6);
+INSERT INTO "warga"
+VALUES('327698525080', 'Lina Santoso', 43, 'Kompleks Mawar', 7);
+INSERT INTO "warga"
+VALUES('337916791958', 'Argono Napitupulu', 1041, 'Gang K.H. Wahid Hasyim', 121);
+INSERT INTO "warga"
+VALUES('351371378718', 'Silvia Zulaika', 1045, 'Gang Jend. A. Yani', 47);
+INSERT INTO "warga"
+VALUES('362676978082', 'Zulaikha Sihombing', 1029, 'Jalan Soekarno Hatta', 90);
+INSERT INTO "warga"
+VALUES('373762961630', 'Dr. Ilyas Mandala, S.Ked', 1033, 'Gg. Kebonjati', 33);
+INSERT INTO "warga"
+VALUES('389986565181', 'Jarwa Maheswara, M.Ak', 1019, 'Gg. M.H Thamrin', 138);
+INSERT INTO "warga"
+VALUES('398347954255', 'Prayitna Thamrin, S.Ked', 1044, 'Gang Veteran', 197);
+INSERT INTO "warga"
+VALUES('404976035397', 'Syahrini Kusmawati', 1005, 'Gang Pelajar Pejuang', 177);
+INSERT INTO "warga"
+VALUES('430491899288', 'Jamalia Hutapea', 1034, 'Gang Asia Afrika', 44);
+INSERT INTO "warga"
+VALUES('453233164086', 'drg. Damar Astuti', 1021, 'Gg. Soekarno Hatta', 92);
+INSERT INTO "warga"
+VALUES('455735353978', 'Ciaobella Usamah, M.Farm', 1027, 'Gang Ir. H. Djuanda', 135);
+INSERT INTO "warga"
+VALUES('456373336763', 'Almira Fujiati', 1015, 'Jalan R.E Martadinata', 41);
+INSERT INTO "warga"
+VALUES('463675551371', 'Safina Utami', 1046, 'Gg. Jamika', 186);
+INSERT INTO "warga"
+VALUES('485989313165', 'Makara Suryono', 1032, 'Gang Indragiri', 137);
+INSERT INTO "warga"
+VALUES('498919944166', 'Ajimat Suwarno, S.Pd', 1023, 'Jalan Antapani Lama', 185);
+INSERT INTO "warga"
+VALUES('516595373791', 'Dr. Harjo Sihotang', 1036, 'Jl. Raya Ujungberung', 127);
+INSERT INTO "warga"
+VALUES('523522555296', 'Oliva Mahendra', 1009, 'Jl. Stasiun Wonokromo', 87);
+INSERT INTO "warga"
+VALUES('531398413791', 'Nugraha Hakim', 1037, 'Jl. Suryakencana', 157);
+INSERT INTO "warga"
+VALUES('564068992394', 'Mutia Sirait', 1049, 'Gang R.E Martadinata', 151);
+INSERT INTO "warga"
+VALUES('575071690220', 'Puti Gina Wijaya', 1007, 'Gang R.E Martadinata', 168);
+INSERT INTO "warga"
+VALUES('605887511411', 'Jaswadi Puspita', 1048, 'Jl. Rawamangun', 74);
+INSERT INTO "warga"
+VALUES('624299132347', 'Drs. Padma Palastri', 1017, 'Gang Jakarta', 167);
+INSERT INTO "warga"
+VALUES('638840734145', 'Capa Suwarno', 1035, 'Gg. Stasiun Wonokromo', 93);
+INSERT INTO "warga"
+VALUES('644044321464', 'Puti Ami Iswahyudi', 1003, 'Jl. R.E Martadinata', 30);
+INSERT INTO "warga"
+VALUES('669173875808', 'Keisha Rahmawati', 1014, 'Jl. Rajawali Barat', 19);
+INSERT INTO "warga"
+VALUES('687951043631', 'Dr. Oliva Susanti', 1020, 'Jalan Pasirkoja', 80);
+INSERT INTO "warga"
+VALUES('694470041605', 'Natalia Halimah, M.M.', 1038, 'Gang Ciumbuleuit', 196);
+INSERT INTO "warga"
+VALUES('698087216516', 'Dr. Devi Utama, S.Kom', 1030, 'Gg. Jakarta', 116);
+INSERT INTO "warga"
+VALUES('698487768266', 'Ifa Kuswoyo', 1025, 'Gang BKR', 132);
+INSERT INTO "warga"
+VALUES('713590776316', 'Rahmat Sirait', 1013, 'Gg. Kiaracondong', 140);
+INSERT INTO "warga"
+VALUES('726519726893', 'Puput Sinaga', 1039, 'Jl. Cihampelas', 34);
+INSERT INTO "warga"
+VALUES('738873459425', 'Dalimin Sirait', 1002, 'Gang Otto Iskandardinata', 162);
+INSERT INTO "warga"
+VALUES('807181885676', 'dr. Vanya Nainggolan, M.TI.', 1001, 'Gg. Cihampelas', 169);
+INSERT INTO "warga"
+VALUES('811389075831', 'Cut Azalea Anggraini', 1000, 'Jl. Pacuan Kuda', 157);
+INSERT INTO "warga"
+VALUES('826860181255', 'Hasna Halim', 1011, 'Jl. Pelajar Pejuang', 107);
+INSERT INTO "warga"
+VALUES('829946523725', 'Uchita Hidayat', 1004, 'Gang Rawamangun', 132);
+INSERT INTO "warga"
+VALUES('862020560784', 'Hamzah Anggraini', 1006, 'Gang S. Parman', 38);
+INSERT INTO "warga"
+VALUES('926769440455', 'Hasna Utami', 1026, 'Gg. Raya Ujungberung', 140);
+INSERT INTO "warga"
+VALUES('996039059840', 'Zaenab Zulkarnain', 1043, 'Jl. Gegerkalong Hilir', 198);
+INSERT INTO "warga"
+VALUES('996519973562', 'Puput Wulandari', 1024, 'Gang Cihampelas', 24);
+COMMIT;
