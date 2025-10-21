@@ -60,7 +60,7 @@ VALUES('327664615285', 'Saya melihat seseorang memakai topeng komando berlari me
 INSERT INTO "interview"
 VALUES('327684442639', 'Ada mobil van putih yang tidak biasa parkir di ujung jalan selama 3 hari sebelum kejadian.');
 INSERT INTO "interview"
-VALUES('327628171271', 'Saya mendengar suara teriakan \"tolong\" sekitar pukul 19.30 tapi tidak yakin dari rumah mana.');
+VALUES('327628171271', 'Saya mendengar suara teriakan "tolong" sekitar pukul 19.30 tapi tidak yakin dari rumah mana.');
 INSERT INTO "interview"
 VALUES('327669406617', 'Saya melihat seseorang bersembunyi di semak-semak depan kompleks, mencurigakan.');
 INSERT INTO "interview"
@@ -96,7 +96,7 @@ VALUES('327656609890', 'Saya mendengar suara langkah kaki cepat di atap rumah sa
 INSERT INTO "interview"
 VALUES('327627750246', 'Ada bekas tapak sepatu besar di kebun saya yang mengarah ke rumah korban.');
 INSERT INTO "interview"
-VALUES('327652271003', 'Saya mendengar suara tembakan lalu saya melihat seorang pria bertato lari terburu-buru. Dia membawa tas dari gym \"Segar Bugar\". Ada nomor member di tas tersebut dengan awalan \"GD1\", biasanya itu untuk member Gold. Saya juga melihat pria itu mengendarai mobil dengan plat ber awalan \"B99\".');
+VALUES('327652271003', 'Saya mendengar suara tembakan lalu saya melihat seorang pria bertato lari terburu-buru. Dia membawa tas dari gym "Segar Bugar". Ada nomor member di tas tersebut dengan awalan "GD1", biasanya itu untuk member Gold. Saya juga melihat pria itu mengendarai mobil dengan plat ber awalan "B99".');
 INSERT INTO "interview"
 VALUES('327657813820', 'Saya mendengar suara seperti orang berdebat dari rumah korban sekitar 1 jam sebelum kejadian.');
 INSERT INTO "interview"
