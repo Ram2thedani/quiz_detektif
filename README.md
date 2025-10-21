@@ -8,7 +8,7 @@
 <br>
 <p>Kurang lebih skema datanya kayak gini nih:</p>
 
-![skema_detektif](skema_detektif.jpg)
+![skema_detektif](skema.jpg)
 
 <hr>
 
