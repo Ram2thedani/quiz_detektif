@@ -15,8 +15,7 @@
 <h2>🕵️‍♂️ Gimana Cara Mainnya?</h2>
 
 <ol>
-<li>Akses link berikut: https://ram2thedani.github.io/quiz_detektif/</li>
-<li>Import ke phpmyadmin, heidisql, atau tools management DB lainnya sesuai favorit kamu</li>
+<li>Akses link berikut: <b>https://ram2thedani.github.io/quiz_detektif/</b></li>
 <li>Pakai SQL buat nyusurin database dan cari siapa pelakunya.</li>
 <li>Masukin jawaban kamu di link ini: <b>https://thel1012.github.io/q1a/</b></li>
 <li>Pastikan jawabanmu kuat — dunia detektif gak bisa ngandelin tebak-tebakan 😎</li>
